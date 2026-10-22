@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "method": "Actual Edge browser interaction via CUA; read-only DOM geometry and rendered document counts. No simulated browser results.",
+  "main": {
+    "articles": 37,
+    "desktop_render": "visually reviewed at normal desktop viewport",
+    "mobile_375": {"innerWidth":375,"documentScrollWidth":360,"overflowOutsideTables":0},
+    "mobile_320_large_type": {"innerWidth":320,"documentScrollWidth":305,"bodyFontSize":"21px","overflowOutsideTables":0},
+    "search": {"query":"称义","shown":10,"total":37,"reset":"passed"},
+    "learning_progress":"marked article 1, observed 1/37, unmarked to restore",
+    "flashcard":"answer initially hidden, revealed core and memory text successfully"
+  },
+  "reader": {
+    "visible_doc_selection": {"apostles":1,"nicene":1,"athanasian":1,"belgic":37,"heidelberg":129,"dort":63},
+    "mask":"computed visibility hidden, Enter key revealed passage and computed visibility visible",
+    "mobile_320_large_type": {"innerWidth":320,"documentScrollWidth":305,"headerAndBodyOverflow":0,"dortSections":63},
+    "tablet_768": {"innerWidth":768,"documentScrollWidth":753,"belgicSections":37},
+    "browser_error_logs":[]
+  },
+  "limits":"Device voice availability and printer dialog were not audibly/physically tested. Reduced-motion support verified in CSS; no claim of testing every device or operating system."
+}

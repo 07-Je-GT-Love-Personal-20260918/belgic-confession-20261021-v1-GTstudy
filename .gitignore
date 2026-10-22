@@ -4,5 +4,6 @@ __pycache__/
 *.log
 .env*
 qa/*.png
+dist/CNAME
 
 .vercel

@@ -6,10 +6,10 @@
     "hash_algorithm": "SHA-256 UTF-8 text字段；raw_html_sha256为下载响应字节摘要",
     "complete": true,
     "html_sanitization": "仅保留文字与p/sup/sub/em/strong/ol/ul/li/br/标题/blockquote/容器/表格结构；移除全部脚本、链接及外部属性，仅保留数字列表起号/表格跨行列。",
-    "pdf_comparison": "用户提供PDF与网站均标2015版，但不是逐字相同的数字文本；PDF带批注。正文采用网站，差异另列，不把PDF批注混入。",
-    "edition_scope": "多特按指定网站及用户PDF的内容：59条正面教义+4组驳谬；两来源均未收通行其他版本所附的独立结语，不擅补其他译文。",
+    "pdf_comparison": "本次用户提供245页2015版PDF；与网站属同译本体系，但不声称逐字一致。正文以CCI保存中文译文为准，不依据PDF静默改写。",
+    "edition_scope": "多特依指定网站保存版本：59条正面教义与4组完整驳谬；未用其他译本补入独立结语。",
     "validation": "全部text与HTML散列重算通过；六文件已完成；多特独立结语在指定版本中缺载，详见dort.completeness。",
-    "input": "用户提供 E:/敬拜赞美手册出版（2015）.pdf；以指定网站中文译文核对，非古代原语版本。"
+    "input": "用户提供的《敬拜赞美手册出版（2015）.pdf》；原文为指定网站中文译文，非古代原语文本。"
   },
   "documents": [
     {
