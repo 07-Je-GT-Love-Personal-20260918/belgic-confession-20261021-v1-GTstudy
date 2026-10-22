@@ -31,6 +31,6 @@ for doc in originals['documents']:
   count+=1
 assert count==232
 assert (base/'dist/index.html').read_text(encoding='utf8').count('class="article-card"')==37
-result={'date':'2026-10-21','original_sections':count,'commentary_articles':37,'pages':checks,'result':'PASS'}
+result={'date':'2026-10-22','original_sections':count,'commentary_articles':37,'pages':checks,'result':'PASS'}
 (base/'qa/static-check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps(result))

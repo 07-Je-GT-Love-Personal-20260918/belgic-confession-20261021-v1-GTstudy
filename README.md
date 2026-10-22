@@ -86,3 +86,5 @@ python scripts/check_static.py
 ## 验证
 
 `qa/static-check.json`记录37条与232段原文、重复ID和本地链接检查；`qa/browser-check.json`记录实际浏览器交互及不同屏宽结果；`qa/public-check.json`记录公开站点HTTP与文件摘要检查。朗读依赖设备中文语音，音色和支持情况由设备决定。笔记与进度仅存在当前浏览器，可手动导出；网站无账号、数据库或分析追踪。
+
+首版发布验收：三个公开站点27项资源全部返回HTTP 200，且仅忽略跨平台换行后与本地发布文件一致。Vercel指定域名已登记为项目域名并验证，保留预览部署访问保护。Vercel Git自动连接未成功，更新可使用已登录CLI；GitHub Pages自动部署已成功。离线包见Releases。

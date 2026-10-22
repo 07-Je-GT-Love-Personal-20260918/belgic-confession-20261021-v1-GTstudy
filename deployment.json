@@ -1,22 +1,42 @@
 {
-  "theme":"比利时信条",
-  "edition":"belgic-confession-20261021-v1-GTstudy",
-  "version":"1.0.0",
-  "created":"2026-10-21",
-  "released":"2026-10-22",
-  "timezone":"Asia/Taipei",
-  "repository":"https://github.com/07-Je-GT-Love-Personal-20260918/belgic-confession-20261021-v1-GTstudy",
-  "githubPagesUrl":"https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
-  "surgeUrl":"https://belgic-confession-20261021-v1-gtstudy.surge.sh/",
-  "vercelUrl":"https://belgic-confession-20261021-v1-gtstudy.vercel.app/",
-  "githubPagesWorkflow":39701633918,
-  "vercelProjectId":"prj_PDnsL7NU4BlT3JgmUL9q7XFlYurC",
-  "vercelTeam":"abners-projects-6f97a189",
-  "vercelProjectDomainVerified":true,
-  "vercelProtection":"all_except_custom_domains; requested public project domain added and verified; preview protection retained",
-  "continuousDeployment":{"githubPages":"automatic on main push","surge":"official CLI, existing authenticated account","vercel":"official CLI, existing authenticated account; Git provider connection attempted but failed"},
-  "restoreTag":"v1.0.0-20261022",
-  "sourceBaseline":{"date":"2026-10-21","pages":155,"sections":232,"matched":232},
-  "latestSourceAttempt":"155 source connections timed out; separate from the successful dated baseline",
-  "verificationFiles":["qa/static-check.json","qa/browser-check.json","qa/public-check.json"]
+  "theme": "比利时信条",
+  "edition": "belgic-confession-20261021-v1-GTstudy",
+  "version": "1.0.0",
+  "created": "2026-10-21",
+  "released": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "repository": "https://github.com/07-Je-GT-Love-Personal-20260918/belgic-confession-20261021-v1-GTstudy",
+  "githubPagesUrl": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
+  "surgeUrl": "https://belgic-confession-20261021-v1-gtstudy.surge.sh/",
+  "vercelUrl": "https://belgic-confession-20261021-v1-gtstudy.vercel.app/",
+  "githubPagesWorkflow": 39702306823,
+  "vercelProjectId": "prj_PDnsL7NU4BlT3JgmUL9q7XFlYurC",
+  "vercelTeam": "abners-projects-6f97a189",
+  "vercelProjectDomainVerified": true,
+  "vercelProtection": "all_except_custom_domains; requested public project domain added and verified; preview protection retained",
+  "continuousDeployment": {
+    "githubPages": "automatic on main push",
+    "surge": "official CLI, existing authenticated account",
+    "vercel": "official CLI, existing authenticated account; Git provider connection attempted but failed"
+  },
+  "restoreTag": "v1.0.0-20261022",
+  "sourceBaseline": {
+    "date": "2026-10-21",
+    "pages": 155,
+    "sections": 232,
+    "matched": 232
+  },
+  "latestSourceAttempt": "155 source connections timed out; separate from the successful dated baseline",
+  "verificationFiles": [
+    "qa/static-check.json",
+    "qa/browser-check.json",
+    "qa/public-check.json"
+  ],
+  "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-hm6pzxav2.vercel.app",
+  "verifiedPublicResources": {
+    "passed": 27,
+    "total": 27,
+    "date": "2026-10-22"
+  },
+  "publishedSiteCommit": "5382f5f4ead1fc0bd7d484a71d73d16cb9c2868b"
 }
