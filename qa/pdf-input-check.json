@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "input_filename": "敬拜赞美手册出版（2015）.pdf",
+  "bytes": 3209501,
+  "sha256": "6de12e8aa6e3df8319fa726ab32393a88d5ee3bdf9920c0f53fe96c63072a04d",
+  "pages": 245,
+  "text_pages": 245,
+  "creeds": [
+    {
+      "title": "使徒信经",
+      "opening_page_candidates": [
+        4,
+        55,
+        56
+      ],
+      "website_normalized_characters": 166
+    },
+    {
+      "title": "尼西亚信经",
+      "opening_page_candidates": [
+        5
+      ],
+      "website_normalized_characters": 322
+    },
+    {
+      "title": "亚他那修信经",
+      "opening_page_candidates": [
+        7
+      ],
+      "website_normalized_characters": 1032
+    }
+  ],
+  "method": "Read-only pypdf text extraction of current user-supplied file. Existing translation corpus is independently checked against current CCI website. PDF identity is not evidence of character-for-character website equality.",
+  "publication": "The full PDF is not copied to dist or the repository."
+}

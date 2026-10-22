@@ -1,0 +1,8 @@
+.vercel/
+node_modules/
+__pycache__/
+*.log
+.env*
+qa/*.png
+
+.vercel

@@ -1,0 +1,3121 @@
+{
+  "meta": {
+    "date": "2026-10-21",
+    "checked_at_utc": "2026-10-21T03:22:31.617588+00:00",
+    "method": "Live HTTP GET once per unique source in this execution; no prior disk cache; concurrency 5; original extraction selectors; paragraph blocks p/h2/h3/h4/h5/li, nested p/li excluded; only Unicode whitespace ignored; two transient TLS EOF sources retried live successfully; successful sources were not fetched again",
+    "completed_at_utc": "2026-10-21T03:23:02.928143+00:00",
+    "provenance": "Existing project verification record, reused as dated baseline, not a new live fetch by this edition.",
+    "reused_for_release": "2026-10-22"
+  },
+  "summary": {
+    "total_sections": 232,
+    "matched": 232,
+    "differences": 0,
+    "unique_sources": 155,
+    "sources_ok": 155
+  },
+  "sources": [
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/1",
+      "seconds": 1.38,
+      "raw_sha256": "b5acc658b53355deb9539f45a2212ef2ab024fb57a74752ba00d83d28abcdaa4",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/10",
+      "seconds": 1.76,
+      "raw_sha256": "d630bc12f22ca25c7d12893953a2b99bff584acd5ab5bb163f18ded7c6794ce0",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/11",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/11",
+      "seconds": 1.7,
+      "raw_sha256": "305346b5e4db75fd097fdfdc39aeca0ee2dd5df065b7f753230d7be2b1b8d260",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/12",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/12",
+      "seconds": 2.69,
+      "raw_sha256": "d3ae3a4269b233dc502032f171351120d186e4ad7087682f493a8425109a3c37",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/13",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/13",
+      "seconds": 2.3,
+      "raw_sha256": "80b52147c7793d0b9edd2a6928e52787168776cc192ec26905067e9fc5a013c9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/14",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/14",
+      "seconds": 1.76,
+      "raw_sha256": "0d00025b6eef1d974d95671929a9c96ad3b46b740e3b2ffe9621902e6daecc21",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/15",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/15",
+      "seconds": 1.42,
+      "raw_sha256": "4f38099fa983b763a377314215968d57d07f447d17141385faed1605513a7bbc",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/16",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/16",
+      "seconds": 2.22,
+      "raw_sha256": "898e2adfc388ee88af9fe6f36bba61570e78a40ebd4bafb2795638848a3ecc46",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/17",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/17",
+      "seconds": 1.45,
+      "raw_sha256": "2e358a20dedceda7f19e93b6afa6709be56cde2565ff4ab5d5e257d96e731e68",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/18",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/18",
+      "seconds": 1.41,
+      "raw_sha256": "cab1181f826daf931455197ccccfeb607c7fdfe37b3c8463997a39a9ff349ef9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/19",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/19",
+      "seconds": 2.42,
+      "raw_sha256": "ccce9440d8fd25e3f72930755322c7497db7e46e17b2330a24364b5f3f1f11ce",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/2",
+      "seconds": 1.3,
+      "raw_sha256": "5aed35c31b582ffdfdf4be77e8864859b3288c21eda43fe72904cd0326054f58",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/3",
+      "seconds": 1.19,
+      "raw_sha256": "17fcc10d018c5f243f5721f3c574af2b0d5892ccacbd504f3aab6c0c9deca5d9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/4",
+      "seconds": 1.24,
+      "raw_sha256": "17c3e105329e7dbde84b8c1edabb2d1110a1838dfda94025ab315645c4f20b8c",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/5",
+      "seconds": 1.25,
+      "raw_sha256": "c164809760133f9c3ffa7ddfd2d1f377f57e0873794bc19ea6369623f14d2fa3",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/6",
+      "seconds": 1.24,
+      "raw_sha256": "778bd552115177148d69dd679b6b424491c199fdc68751b7d3fe7f3509656916",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/7",
+      "seconds": 1.17,
+      "raw_sha256": "22db58c801b5fa81558f8f73a64be56469f451cb674eaa25dfbd9ae202b0fee4",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/8",
+      "seconds": 1.23,
+      "raw_sha256": "d49888ec1d2519b4bd5416fb27b6f09fda92105b8338959ef6586d1e5f67873e",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/9",
+      "seconds": 1.19,
+      "raw_sha256": "437c93e0514753105fe512749bc6e78d74394dd19e2652b230cdbc91b157418a",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/1",
+      "seconds": 1.12,
+      "raw_sha256": "a3a29e3c34c71b012dc1c1d086eced0a1ff8fb326c27d99fbeb786065232b9dc",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/10",
+      "seconds": 1.2,
+      "raw_sha256": "7d5ec679dd8375aa6006abd559148d0e7921e1aa5f54c8632745736de34c7bf1",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/2",
+      "seconds": 1.14,
+      "raw_sha256": "71a9f11045240b43840f3688e86621aab3082cf7906436a25733c34557b9756d",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/3",
+      "seconds": 1.48,
+      "raw_sha256": "0fb57e1c6ba9d10c016e6527c85f2b8506c17a049ff30f3e277bb666539973f0",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/4",
+      "seconds": 1.23,
+      "raw_sha256": "5e004aaa83728d01ccb90870eb7090b7719060d72187aaad77a606359ea8893a",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/5",
+      "seconds": 1.14,
+      "raw_sha256": "305f3955330dd0de9a0fae26246bbcdf3709c7b2caf54558d9725d1d7018c3e5",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/6",
+      "seconds": 1.22,
+      "raw_sha256": "9df6572533dcae7adf86d26fc890c72d753c99976b0b47a8e5d74f2154c4af5e",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/7",
+      "seconds": 1.16,
+      "raw_sha256": "9ea781c95fce6a91c09e9b35f1813c41ee6a484787df5ed080eb78d43f0f92f8",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/8",
+      "seconds": 1.2,
+      "raw_sha256": "b423178b15ca725749dace4899c0caa6e4ab0018aee68682acfc82064d49839f",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/9",
+      "seconds": 1.24,
+      "raw_sha256": "9d1847cf6820ce8343182de6d0d1b4ce929927d23530ab6e9bc0ea99ff561454",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/1",
+      "seconds": 3.41,
+      "raw_sha256": "bf87d89f113de3357014e55a4bd3767a46a2dba0dbdb0165b89eae17a5b7e411",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/10",
+      "seconds": 1.41,
+      "raw_sha256": "e87d46f8b598e17d1a4580ac833bdd5fbc75a895bee7c52ce6676868bc10d927",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/11",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/11",
+      "seconds": 1.41,
+      "raw_sha256": "1c3477bd680aebe7585a6dc83d5249a8393a746bacf14645685db480354c9cd3",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/12",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/12",
+      "seconds": 1.39,
+      "raw_sha256": "b0d6c21f49093c8562ae1403d450b159ea255883e0224a7688c3e4376d805a5b",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/13",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/13",
+      "seconds": 1.56,
+      "raw_sha256": "b4ed88790e9fef9afbfa643d0021b90305cf085694e2a2b41548f1399f2a0165",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/14",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/14",
+      "seconds": 1.19,
+      "raw_sha256": "30c08390ca902fb7e77b2639272efa961d7554ac0e65575a0365bcd7c774a167",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/15",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/15",
+      "seconds": 1.14,
+      "raw_sha256": "e058508f7c1dbb483d3d3f08a0bac9442d638deff1a35b428f37505e54934cb6",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/16",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/16",
+      "seconds": 1.14,
+      "raw_sha256": "e0b5fb7fe479b675732f4d3e9aa1ec1a9ade13045609fe904d39091e5d69e469",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/17",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/17",
+      "seconds": 1.22,
+      "raw_sha256": "fe2d2da2189a9dc50de59be39701040ea01cdbe617b23a11b7b3c1708bf7d20c",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/18",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/18",
+      "seconds": 1.53,
+      "raw_sha256": "307980040ad03ade97535164f39b3cbf22fa1fffa7e1d791cec1b5cbd9656041",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/2",
+      "seconds": 2.67,
+      "raw_sha256": "522952ab3adffa7b7a1c9d09685337c636590d22b268a54022ebf9f645a56fce",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/3",
+      "seconds": 1.16,
+      "raw_sha256": "444c7e876be87da3377a004e3de034af738006eae0fb851c9fe5241394788c23",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/4",
+      "seconds": 1.19,
+      "raw_sha256": "122ac19cbb21ad67f92e4513ab48ad455ade7f16e0d682c8163da519d5a048d3",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/5",
+      "seconds": 1.17,
+      "raw_sha256": "81a4d676c543f8444ce84d8eb7bc17a888e337e275b3c1c1ade1e200f0232a9c",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/6",
+      "seconds": 1.17,
+      "raw_sha256": "8165ab8f69ea2dd057789c024cf392690aa3e829a20f3ddf81380c8ce3e55585",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/7",
+      "seconds": 1.94,
+      "raw_sha256": "49557dea878bbb6d82c338d1fdcbc92c483f87d9932de8ff374fdd4e86a95639",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/8",
+      "seconds": 1.17,
+      "raw_sha256": "6eb8545367dc74a38ffcdbbce623cc375c514c86f692aa72b3cc4be17cd1e49f",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/9",
+      "seconds": 1.23,
+      "raw_sha256": "d055ce071b09de984538119aad15828a90bcbf28ec6980acc5331fe85bc28aca",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/1",
+      "seconds": 1.34,
+      "raw_sha256": "111ee0d4ba6bef97271df034e278b695b21c8328262fda1c3b54ba37ede5fefb",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/10",
+      "seconds": 1.17,
+      "raw_sha256": "41a8a4524340a8b0d2754f1e8bbd3ceace53a7090d2f1ec2bddd2e6c89e55423",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/11",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/11",
+      "seconds": 1.12,
+      "raw_sha256": "5108ccb46fb15dda44de4766abd139e62e2d8d60fbd9b3fec658b535a71f1c83",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/12",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/12",
+      "seconds": 1.24,
+      "raw_sha256": "fe2bfe85306c3342a7997f66bdab2d385ed3ebabe796c45738d7f321f905ae2f",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/13",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/13",
+      "seconds": 1.16,
+      "raw_sha256": "6c50494e200f522aa2ac861e56c7dc3d0ad26c0b22f9a43d41734868f8e7caca",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/14",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/14",
+      "seconds": 1.17,
+      "raw_sha256": "d3420a95864263156981c35750e0dd427ee960e6f015bad533f239ea6593ec43",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/15",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/15",
+      "seconds": 1.27,
+      "raw_sha256": "5ee3dcbb24a97144ecfb6ad30ba729149a1f8e24ec4f12df60a77dd43a0abfb8",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/16",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/16",
+      "seconds": 1.3,
+      "raw_sha256": "59610d2ca3e7c6515398babe2bfb02dbddb493f576d24ad7bf8c8ec6a785e454",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/2",
+      "seconds": 1.23,
+      "raw_sha256": "8b37c9229dd0a537b55d5ecb206362f97f01b32da100258b769ddfdf8bbbc1b2",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/3",
+      "seconds": 1.5,
+      "raw_sha256": "27174919f3cfe5a93b34f9e82073557c6502927d25eb2b86ceee6ec175c20491",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/4",
+      "seconds": 1.39,
+      "raw_sha256": "1926be632760d8d549278eed96fe55b348299ac3d1f83ae44e409eba540f2228",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/5",
+      "seconds": 1.34,
+      "raw_sha256": "4b35edcb5ff29094e876d4b84db177997bac45df527d72bc0683d8275af52d06",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/6",
+      "seconds": 1.25,
+      "raw_sha256": "52b13e831765cf5d332b709baca0c906949996411783932c3de047ee5f875417",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/7",
+      "seconds": 1.22,
+      "raw_sha256": "acf0fa6a5efa85ef76bb23df1f4aa6ae2ad68316f1e1d4623365668234fc93fa",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/8",
+      "seconds": 1.16,
+      "raw_sha256": "c5bc49123111997588c133f2712802c1b9a5198dcf5914205848351b0371241e",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/9",
+      "seconds": 1.2,
+      "raw_sha256": "9449182e03667294de86e4585043d1aa1e6f6bb89d0e744aa0d355f78462ac44",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/lord-day-1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/lord-day-1",
+      "seconds": 1.17,
+      "raw_sha256": "33e5c29ee9cb95727847e335927c83240f517b6ed97cb4692e98333285d2268a",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-2",
+      "seconds": 1.2,
+      "raw_sha256": "0c636cb7fff559d3f14cb80fe30adf6e977fc71abd6c2b4a9676767fc5fa4bbe",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-3",
+      "seconds": 1.16,
+      "raw_sha256": "b1df53094b4e3052e60a46a2ee3b0a316b20f68b5a47381767f77d63009d0836",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-4",
+      "seconds": 1.16,
+      "raw_sha256": "ce1a74675c5af0543ddcb8f8f990e0745b7cb6a95a96a1f887f75367b9ce8d2a",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-10",
+      "seconds": 2.44,
+      "raw_sha256": "d86b83a88aaa0e42373bed24233ea1c9cc0f6bacb80730c2821cd5ac8454ae60",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "seconds": 1.19,
+      "raw_sha256": "d0ce7bd9a8d1ed14535d63383ee2812e483e265ac57a39ce3c1667733afa8700",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "seconds": 1.17,
+      "raw_sha256": "7165d9a16c03266a7ea7c7ad1e8758132c7285c441a34c1b425a52731b35433e",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "seconds": 1.16,
+      "raw_sha256": "aa7e2fd6548f1ff443570ff51f1ccabe02d9a9effd93f23c487a5f5d2ff5f2cc",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-8",
+      "seconds": 1.14,
+      "raw_sha256": "74a5a59834f04bb45b360cb955851a9a88cec6df4916a33cd5e767882532e80c",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-9",
+      "seconds": 1.12,
+      "raw_sha256": "456642220556719ae64ac149d01f82026b9ef215d52fb57aade7b0f066d1edb1",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-11",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-11",
+      "seconds": 1.19,
+      "raw_sha256": "0e55e1c5c775748672904929d23b645caf36265584fdefedf72054edf755d646",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-12",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-12",
+      "seconds": 1.16,
+      "raw_sha256": "325c855894b53b355e1de76fdea7ea2709f4454dd2beb8c7bca46b241f10ab3c",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-13",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-13",
+      "seconds": 1.14,
+      "raw_sha256": "afb338613f3163b0de41419c62b865224a5a5117864ae452cf6fb00974676408",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-14",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-14",
+      "seconds": 1.19,
+      "raw_sha256": "8cef9316544b93757cc4a560daa1f51ab6e8dabd42e5d485fd14c505563f4299",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-15",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-15",
+      "seconds": 1.2,
+      "raw_sha256": "4afb3f2928d1cf7565a8525e3659a760a29ece87cedd7dd417b00d46e5757a19",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "seconds": 1.39,
+      "raw_sha256": "087765c458b29b6dd4871d15497c23952a0bcf23fbe799039174b4f50988117b",
+      "blocks": 5
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-17",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-17",
+      "seconds": 1.24,
+      "raw_sha256": "45930c30639c3626e256876dfe3ca221ffc8cdc04ae4dd28a14ad640483ce732",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "seconds": 1.16,
+      "raw_sha256": "0b1707c8f0b83497c0f69c7104c93cd9564833df14d36b195dc5c60303dd2dd0",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-19",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-19",
+      "seconds": 1.47,
+      "raw_sha256": "2966e5ab9a8d63c819ab08ae714c6167a2e1f4ac41c002249513a0ef7faa54f0",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-20",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-20",
+      "seconds": 1.42,
+      "raw_sha256": "8879a8b3d31a8845bd03ad40e7ed0045e003966d65608fdc581a08b134a58e5d",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-21",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-21",
+      "seconds": 2.41,
+      "raw_sha256": "b5b69938e7622c99c83189862d4e329cdc4a37d6279fa5ec832921876539ac3c",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-22",
+      "status": 200,
+      "seconds": 3.12,
+      "initial_error": "HTTPSConnectionPool(host='ccifellowship.org', port=443): Max retries exceeded with url: /books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))",
+      "retry_success": true,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-22",
+      "raw_sha256": "f3043de2d66e0d34a3b6803096027c1eede1ccca6513f3529ccf22e71c493e41",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-23",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-23",
+      "seconds": 1.16,
+      "raw_sha256": "f9d19acf51eb97d574a652dd6ef79e0fa429c6725f91e1282bb928922ad9feed",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-24",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-24",
+      "seconds": 1.69,
+      "raw_sha256": "839721cdc5f95df5ecbe7e5113f324b1c264c3948301a128b9309bf2abfc2305",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "seconds": 1.5,
+      "raw_sha256": "fd8887af954a9b7b9b98b4103ca839659fa81317cef7cdb0855b652d38b5cfad",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-26",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-26",
+      "seconds": 2.42,
+      "raw_sha256": "945746edf2d50f67cc84a82eea8ba97976225b4b1b7cea3cdc99615951e975c8",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+      "seconds": 1.14,
+      "raw_sha256": "9d9d26e0911af1103be89e17ffeaba1a1121bbe43b4f084a2e08cf4d30ff43c4",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-28",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-28",
+      "seconds": 1.17,
+      "raw_sha256": "00ee9d7ec303827a3c93520a5e41c39759596bcb8b16a583db4a58e564aeab49",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-29",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-29",
+      "seconds": 1.19,
+      "raw_sha256": "34b08df309ea1e8da88d148c5ab98deccd5816ee37985335d9f60a47a66359de",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-30",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-30",
+      "seconds": 2.05,
+      "raw_sha256": "3d187ea16475911a882735eb80f44f618dd39dccdce196658058818d05fd92c2",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-31",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-31",
+      "seconds": 2.34,
+      "raw_sha256": "71867350165251716a45c853fe2d0c861a9cb96c425542a1fe2fa11cf37f83f8",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-32",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-32",
+      "seconds": 1.83,
+      "raw_sha256": "90b9f8697e134812bef21e1e90b3a41ad3d8bb5d663c674b448f07a58e5de977",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "seconds": 4.66,
+      "raw_sha256": "d752204caf9e28f908707de90e47297e36809b33e6142878a6877e4975d9aae7",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "seconds": 2.58,
+      "raw_sha256": "ab66742d84393e0604029111e1d2433fd2c63fca9f2f5eb8506129595e6db8ff",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-35",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-35",
+      "seconds": 1.16,
+      "raw_sha256": "8f715237d65d7cc909dd47117d59ddbe33b9bbaaad66b461ca72f16104fa4589",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-36",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-36",
+      "seconds": 1.16,
+      "raw_sha256": "b687d8db59536ae95fa31d180d1de25b6b9d3cd62650510bfeed7ee941d2d036",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-37",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-37",
+      "seconds": 2.97,
+      "raw_sha256": "9f0d72bb1dbc221a50f7496d393375f5975df7d9e589fcc0fcd1e087fb3570b2",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-38",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-38",
+      "seconds": 1.42,
+      "raw_sha256": "3997d05c26f30bdab03c199459b6be6c7a94f5cf6a00dfead234e6fe3f516732",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-39",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-39",
+      "seconds": 1.22,
+      "raw_sha256": "5c8433682a7865d9cc6b99e5d78183c9d44837e8b09a0e19b70ab14ed8b0f3c2",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40",
+      "status": 200,
+      "seconds": 3.12,
+      "initial_error": "HTTPSConnectionPool(host='ccifellowship.org', port=443): Max retries exceeded with url: /books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))",
+      "retry_success": true,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40",
+      "raw_sha256": "864ce5ab3c2b7a246f7fb0fbb177fee8614b0d3b9bd7af25565d105bc8672fde",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-41",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-41",
+      "seconds": 1.16,
+      "raw_sha256": "40f2a53e3722870c79ece45587c7a1b185025e641932c1210c8847aff9a5eb04",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-42",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-42",
+      "seconds": 1.12,
+      "raw_sha256": "3e009ec2654bc6ca872ed822a365c833a76de55cca36a54044197e6027e72163",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-43",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-43",
+      "seconds": 1.16,
+      "raw_sha256": "ea920b170c7319608f171b4f8ffa81bdd3d61a6117c392227ecd07dde8675183",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-44",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-44",
+      "seconds": 1.2,
+      "raw_sha256": "04f729c1c7f2169ca4ddfca7078482236804a8404a5008666c3fb4db1dbff96a",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "seconds": 1.22,
+      "raw_sha256": "d303cf54f037d0de0c9f41ff3750feca5ffd0afa2e1647e16d525052c1602369",
+      "blocks": 4
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-46",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-46",
+      "seconds": 1.19,
+      "raw_sha256": "98b865391a5d90c936cb32f41a9ef978a9f45b0146cf3880b6771d59520f2d59",
+      "blocks": 2
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-47",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-47",
+      "seconds": 1.28,
+      "raw_sha256": "db3962ddee7cf9510db297bdef48954addc371060c83c4d496acc2d3cf7e9c4d",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-48",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-48",
+      "seconds": 3.12,
+      "raw_sha256": "c1ffded5689b9f7566b4ae0a05a7ddb586e7b336638bfbf70b5d7035f0e4b5cb",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-49",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-49",
+      "seconds": 1.27,
+      "raw_sha256": "39a05a9ffc1c617c4e3a92dede3d00d59cd0ed74ccc93e945e9c760fe6b90f56",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-50",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-50",
+      "seconds": 1.2,
+      "raw_sha256": "693a8580c79d6c945134d8c2ab7913ee0101732d31ecf32cf43a343e7f434f16",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-51",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-51",
+      "seconds": 1.19,
+      "raw_sha256": "8ba765c429c83a265fe2a2718a75e182b5d71304a8bb1e5936fac1514b61fa5a",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-52",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-52",
+      "seconds": 1.17,
+      "raw_sha256": "9cff0f594a372120186822d1f2be77a5643ad4f3c3685e9425aaaefe226e0362",
+      "blocks": 3
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/1",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/1",
+      "seconds": 1.24,
+      "raw_sha256": "6b0fe38e9e91814035756c5252a02385045228e5250093d7864f722ae51e8f8e",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/10",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/10",
+      "seconds": 1.64,
+      "raw_sha256": "66a4807592e123532ecb675500494b36cef63d83284abf6896154e1f156552e9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/11",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/11",
+      "seconds": 1.26,
+      "raw_sha256": "2e7d8a5be262dfe6a3fcd94211ba98040468524368d552f3c2bc3503a0939960",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/12",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/12",
+      "seconds": 2.24,
+      "raw_sha256": "c81614bbd5614c1b75194e24e4c12f8416fcdc57f104b025fed4ee317ddc6b96",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/13",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/13",
+      "seconds": 1.22,
+      "raw_sha256": "de8a2e5056f2faa9074f3890fe8ba5baa048246aec3a9d35c8e98eb96f6060ef",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/14",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/14",
+      "seconds": 1.2,
+      "raw_sha256": "94efc27b6645b78327df0936dc5d1df2e31a9751feaf3c2ef91b29e02fca1be1",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/15",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/15",
+      "seconds": 1.3,
+      "raw_sha256": "e3496fe7a868b82a275165c57a6e3de4be2baf9156c9df6ee9057a1ea7e8e372",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/16",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/16",
+      "seconds": 1.25,
+      "raw_sha256": "e3d2aeda5efc16d17bc089abf0969a255a77e4681fe7e58266c5cfcb2ee2f8bf",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/17",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/17",
+      "seconds": 1.95,
+      "raw_sha256": "935f0ec6529f2b6f234d9de399ab10d8a0d2416d79ee2a33aa89dfb3b37684cb",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/18",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/18",
+      "seconds": 2.59,
+      "raw_sha256": "1d1de968c4dbdb8df95eb431f3255177d12b7f890f58cbf8e40f7ac9ba3be22f",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/19",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/19",
+      "seconds": 1.25,
+      "raw_sha256": "e279190ee3f20f2bbea541ed2e41465023987f4db305229d842ad1cae05cde39",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/2",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/2",
+      "seconds": 1.5,
+      "raw_sha256": "13bdd40e10ff2fb7ead30af2bdb42ec52fa7026825f8373306dfed7edd56c031",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/20",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/20",
+      "seconds": 1.7,
+      "raw_sha256": "2a740b309e513ad4fa24d4905f4577f4c9af640eba9faf6d6513f01979ce9e7d",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/21",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/21",
+      "seconds": 1.28,
+      "raw_sha256": "b0610f39a1a4d05d9fb4235c21ca8a607a6c2c47c2c6e2523692f1a0a59c5543",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/22",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/22",
+      "seconds": 1.66,
+      "raw_sha256": "d2c5d75ebd134f1fa2183f416e4e6938d8f61b227558d7aedd1c485a505fd560",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/23",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/23",
+      "seconds": 1.38,
+      "raw_sha256": "fa53270bac7cf62d39a5ee66b01240ed696d2233c7a95d6ca024fcad890f17a1",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/24",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/24",
+      "seconds": 2.42,
+      "raw_sha256": "758626cd86b858db5c575a664553ce184fd0acbc0cb1d00bb805bf5f983aa529",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/25",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/25",
+      "seconds": 1.3,
+      "raw_sha256": "f522d4988df0bf0311fca96a0881d225bbe96e116475c67ee452964664ca3e20",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/26",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/26",
+      "seconds": 1.67,
+      "raw_sha256": "001360c8a723d01cc7de6e2f471940c435f42c9bd2a5e9f28146a0291e081fd4",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/27",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/27",
+      "seconds": 1.19,
+      "raw_sha256": "37a5bf65f1c77903066e212d297c68c7f9e1d9c939365fed9dd8b878d893f7fb",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/28",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/28",
+      "seconds": 1.19,
+      "raw_sha256": "54acdc312f3343ac4d99d7a88caac840c5518346793ead7cdd906097b541f1a7",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/29",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/29",
+      "seconds": 2.16,
+      "raw_sha256": "2437308ad12f0d758525684e652cad87ad6f519552cba4286fa0ef1ee326e086",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/3",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/3",
+      "seconds": 1.23,
+      "raw_sha256": "6996c4634457fc3fc2b99369c8bcea6258a0ff0e5f59b0a674f9a506c0a30252",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/30",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/30",
+      "seconds": 1.22,
+      "raw_sha256": "15f0dbb76ab9a8467cbb8db52a29e07dd0a7e75f5c89ced1ee6b4051a934013b",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/31",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/31",
+      "seconds": 1.28,
+      "raw_sha256": "0d81efc25ac60b4dbd65a7d4fbcc8d9f316ad33a9c322cc273a85d109fc0b0f2",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/32",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/32",
+      "seconds": 1.27,
+      "raw_sha256": "fea3ae43a782f8f77f65bbf52f861977d92958f2a8069b86815460c1825621df",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/33",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/33",
+      "seconds": 1.2,
+      "raw_sha256": "8283797d1188ec6792fbad5ae25fe5e3627f30d3d67a67c27d3934c5434187c5",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/34",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/34",
+      "seconds": 1.3,
+      "raw_sha256": "65222a5d209f1acb6b5c20e539a9247cd495392f5410dd7852351403d570b588",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/35",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/35",
+      "seconds": 1.27,
+      "raw_sha256": "7f596d6122024b22a8ca4fdd0d5ec327aff7dbce5cc66360e0aaac98946335ff",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/36",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/36",
+      "seconds": 1.31,
+      "raw_sha256": "2fa6a66d0cf0cfe9445705e774475451839d0c0b6281a7b60673449e683f0d88",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/37",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/37",
+      "seconds": 1.55,
+      "raw_sha256": "c4a810e63fa4f4498ffa7488513fac59d9054f057242159d9307022fa8e2dd48",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/4",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/4",
+      "seconds": 1.27,
+      "raw_sha256": "6583f0ef9626d6234ebe5b842a365b80bc2ee9ee649c2fed5b754821f61838e1",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/5",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/5",
+      "seconds": 1.19,
+      "raw_sha256": "a98a4edcabdfb4aa8cfc0a469e5e0d9e92ea65c490d2a3c2d84d00a7bf417206",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/6",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/6",
+      "seconds": 1.23,
+      "raw_sha256": "67fed9749e827a0105f08d9cb1de09450d434d6942a770b391734262973d1b93",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/7",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/7",
+      "seconds": 1.27,
+      "raw_sha256": "550935e68ac21c48565ad095b33b7a1db52300d3926c8a46f73384063c21fbfd",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/8",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/8",
+      "seconds": 1.19,
+      "raw_sha256": "36f6f6e015d1628382dd666f7d83b60e450fc603dc6da3595b318869d0bc26b0",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/9",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/9",
+      "seconds": 1.48,
+      "raw_sha256": "1dc6e4f92416641e0c7590aca134dee27627368ca2ad5c4bef285bbc94d4fc67",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "seconds": 1.16,
+      "raw_sha256": "dced115dfc80a047eebc4ecbb75f0e599f244a553abfb8f886996ed2eec19cd9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "seconds": 1.45,
+      "raw_sha256": "8eeb9b6d5e2f8a68e482b24dc186e134f024716e473091c1d3d234c059fa4a9c",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "seconds": 1.17,
+      "raw_sha256": "09c8eaa023c5159428f0ccde016da5f569f65db2438dfb6e1504ada791850915",
+      "blocks": 1
+    }
+  ],
+  "sections": [
+    {
+      "document": "apostles",
+      "section": 1,
+      "title": "使徒信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "match": true,
+      "archived_normalized_sha256": "0e89c462973a2fdf3b95a59cdd7df218444768e18b52995521b62eecab3df94b"
+    },
+    {
+      "document": "nicene",
+      "section": 1,
+      "title": "尼西亚信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "match": true,
+      "archived_normalized_sha256": "8d8511eaec46279095b75f096ade8096210caf8f6260ddd8656a6d8273f78c4b"
+    },
+    {
+      "document": "athanasian",
+      "section": 1,
+      "title": "亚他那修信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "match": true,
+      "archived_normalized_sha256": "8eb0ff04badd9627bbd01b1afb6d43268fc42bbc6bce2e335ef62127fa3cc6a2"
+    },
+    {
+      "document": "belgic",
+      "section": 1,
+      "title": "第一条 论只有一位神",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/1",
+      "match": true,
+      "archived_normalized_sha256": "c5e548b27329413bd51ab90375a147da6bcba4e48410c2067167556445546bd8"
+    },
+    {
+      "document": "belgic",
+      "section": 2,
+      "title": "第二条 论神启示自己的方法",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/2",
+      "match": true,
+      "archived_normalized_sha256": "071ceb64ade82f47d136e01e2eeae57c6664c430011f0e04caa80643eb49706e"
+    },
+    {
+      "document": "belgic",
+      "section": 3,
+      "title": "第三条 论圣经",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/3",
+      "match": true,
+      "archived_normalized_sha256": "886ba1ec1ef67097cb0408552c04ac30b61526283fa723a8a4af4363a63b640b"
+    },
+    {
+      "document": "belgic",
+      "section": 4,
+      "title": "第四条 论圣经正典",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/4",
+      "match": true,
+      "archived_normalized_sha256": "f01b77e3872546bade5438232e44f674ed7758692b54ef1d0e24939c68e037be"
+    },
+    {
+      "document": "belgic",
+      "section": 5,
+      "title": "第五条 论圣经的权威性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/5",
+      "match": true,
+      "archived_normalized_sha256": "85d235e86df3464b7e84f084476ae7dcdc6a283721c822d84a5331e8e7bb9c6d"
+    },
+    {
+      "document": "belgic",
+      "section": 6,
+      "title": "第六条 论圣经正典与次经之间的区别",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/6",
+      "match": true,
+      "archived_normalized_sha256": "0d27da38bada6277d2aa5c032e86196c5cfe2a15597126e4e515a4766616298c"
+    },
+    {
+      "document": "belgic",
+      "section": 7,
+      "title": "第七条 论圣经的充分性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/7",
+      "match": true,
+      "archived_normalized_sha256": "ef3abff5ea247c391992175b7355b044dada321f28f1ab18cf0e1a3a5844978a"
+    },
+    {
+      "document": "belgic",
+      "section": 8,
+      "title": "第八条 论神的“三位”和“一体”",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/8",
+      "match": true,
+      "archived_normalized_sha256": "8be06a61de93f95a6690e3cc5851df1211742f8ae21f9b07d1999bd8a9aee35d"
+    },
+    {
+      "document": "belgic",
+      "section": 9,
+      "title": "第九条 三位一体论的圣经依据",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/9",
+      "match": true,
+      "archived_normalized_sha256": "229855c6dcb304a41c9413a17ed8eff5a8eb0df6686a2482a64be3b8671c0ad2"
+    },
+    {
+      "document": "belgic",
+      "section": 10,
+      "title": "第十条 论耶稣基督是永活真神",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/10",
+      "match": true,
+      "archived_normalized_sha256": "5fda1368a34ecd2f6a2c43fabac9157fd7cc3745880c1a06440028b3824bcfca"
+    },
+    {
+      "document": "belgic",
+      "section": 11,
+      "title": "第十一条 论圣灵是永活真神",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/11",
+      "match": true,
+      "archived_normalized_sha256": "80fbbe1f0486dcc633a8bfc9e1956ec71072864b1d0ed9300357cee30cdfa2d9"
+    },
+    {
+      "document": "belgic",
+      "section": 12,
+      "title": "第十二条 论万物被造，尤其是天使被造",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/12",
+      "match": true,
+      "archived_normalized_sha256": "5897e68fea72640cb112902cafe67f5ed217ea8896a0080839ee8d3ea2728bbb"
+    },
+    {
+      "document": "belgic",
+      "section": 13,
+      "title": "第十三条 论神的护理",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/13",
+      "match": true,
+      "archived_normalized_sha256": "fde079720dfa1fe48734d8a603af1435fc948f33335b28455fa1214d063f95e7"
+    },
+    {
+      "document": "belgic",
+      "section": 14,
+      "title": "第十四条 论人的被造与堕落以及人不能行真善事",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/14",
+      "match": true,
+      "archived_normalized_sha256": "c08fc75cd4408a0835a696a7fd5fa809af993eb0e6e8c0d83455514e4a935dbc"
+    },
+    {
+      "document": "belgic",
+      "section": 15,
+      "title": "第十五条 论原罪",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/15",
+      "match": true,
+      "archived_normalized_sha256": "389c41b0c2cfe78b96edff87a551cd9a9f4edc8edbbf163142f22ad5aac0d203"
+    },
+    {
+      "document": "belgic",
+      "section": 16,
+      "title": "第十六条 论神的拣选",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/16",
+      "match": true,
+      "archived_normalized_sha256": "da2751b2d7c51e250c60228a97ea3f1a432b142afea37436a9f8ce5b1c5ba253"
+    },
+    {
+      "document": "belgic",
+      "section": 17,
+      "title": "第十七条 论对堕落之人的拯救",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/17",
+      "match": true,
+      "archived_normalized_sha256": "39901f1b31b957c8559a1dc79e719863b3cb7d77f5a440ce7d6d6ebd7e175dd9"
+    },
+    {
+      "document": "belgic",
+      "section": 18,
+      "title": "第十八条 论耶稣基督道成肉身",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/18",
+      "match": true,
+      "archived_normalized_sha256": "947b7d30c16ff55797a57fd2d1dae6bad19058b3d6f78eb123c6de9b38293d5f"
+    },
+    {
+      "document": "belgic",
+      "section": 19,
+      "title": "第十九条 论基督位格中的神人二性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/19",
+      "match": true,
+      "archived_normalized_sha256": "676f71f7bd98be640df4db7ef8816391c8fbf688acf54c7ebad1e2a5cd80cfec"
+    },
+    {
+      "document": "belgic",
+      "section": 20,
+      "title": "第二十条 论神在基督里的公义与怜悯",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/20",
+      "match": true,
+      "archived_normalized_sha256": "f4e237d5a7514f50815b8ba4623464dc853f2016649250efb65f05673ce3d86d"
+    },
+    {
+      "document": "belgic",
+      "section": 21,
+      "title": "第二十一条 论我们大祭司基督的救赎",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/21",
+      "match": true,
+      "archived_normalized_sha256": "19bc7156bff3da6278aece8099b1111d53e3fda9115bed3216440f29d014ffea"
+    },
+    {
+      "document": "belgic",
+      "section": 22,
+      "title": "第二十二条 论因信基督而称义",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/22",
+      "match": true,
+      "archived_normalized_sha256": "43cc284f35c7183da71eab410fda9d291329aad3cb8cc658181badf737f605b0"
+    },
+    {
+      "document": "belgic",
+      "section": 23,
+      "title": "第二十三条 论我们在神面前得称为义",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/23",
+      "match": true,
+      "archived_normalized_sha256": "b45232487ea2c38d2f3f9426c30003f2567825c8591498bcad409b89451ca881"
+    },
+    {
+      "document": "belgic",
+      "section": 24,
+      "title": "第二十四条 论我们的成圣与善行",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/24",
+      "match": true,
+      "archived_normalized_sha256": "416b54749635bfacf133cbaae2b0cc816993ac44de8242ecbae773aba4912d5e"
+    },
+    {
+      "document": "belgic",
+      "section": 25,
+      "title": "第二十五条 论基督成全了律法",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/25",
+      "match": true,
+      "archived_normalized_sha256": "ada65522cf3e5086a07317fc528b4e071874625530a30e617aa969f9c1d64199"
+    },
+    {
+      "document": "belgic",
+      "section": 26,
+      "title": "第二十六条 论基督的代求",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/26",
+      "match": true,
+      "archived_normalized_sha256": "de534df0d721bfd9f3c0957718334dfca7f729a3bf5209946e970cd54aadecbf"
+    },
+    {
+      "document": "belgic",
+      "section": 27,
+      "title": "第二十七条 论圣而公之基督教会",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/27",
+      "match": true,
+      "archived_normalized_sha256": "6ab40cb90fd071fe2325fefd1205a27111deb8c65711d40ad06da5d9c7ec090c"
+    },
+    {
+      "document": "belgic",
+      "section": 28,
+      "title": "第二十八条 论加入教会的责任",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/28",
+      "match": true,
+      "archived_normalized_sha256": "b1d293341e6da89dbb72e07e98fe28a5f4a1202d252b98e66fcc8e52ecffed61"
+    },
+    {
+      "document": "belgic",
+      "section": 29,
+      "title": "第二十九条 论真假教会的标志",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/29",
+      "match": true,
+      "archived_normalized_sha256": "bd0e05fe7fb8b423c9de37b00abda3fd9cf3f7d649b6c44556c2678d69a168b8"
+    },
+    {
+      "document": "belgic",
+      "section": 30,
+      "title": "第三十条 论教会的管理",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/30",
+      "match": true,
+      "archived_normalized_sha256": "77d8eea49373ade999d728ea6ad7c1ff613c1fa22548b7dfa2e545e8b40ee40a"
+    },
+    {
+      "document": "belgic",
+      "section": 31,
+      "title": "第三十一条 论教会圣职",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/31",
+      "match": true,
+      "archived_normalized_sha256": "2c3b38e2a2b5a7bb30bfc185b2880d894e7ffe02eeeb4bfb0d2d73ae15fdb70e"
+    },
+    {
+      "document": "belgic",
+      "section": 32,
+      "title": "第三十二条 论教会规章和教会纪律",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/32",
+      "match": true,
+      "archived_normalized_sha256": "b3f91087fe892100bf912ecf407a10b30dd56f4bf7fa887a3c2ab469d922f2b1"
+    },
+    {
+      "document": "belgic",
+      "section": 33,
+      "title": "第三十三条 论圣礼",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/33",
+      "match": true,
+      "archived_normalized_sha256": "f23e8e1e29a58b0f975ad265c4ae778c91a5f6dd5d68cfba143af5d6e6db01a4"
+    },
+    {
+      "document": "belgic",
+      "section": 34,
+      "title": "第三十四条 论圣洗礼",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/34",
+      "match": true,
+      "archived_normalized_sha256": "df87ff68327c6187b517e9d104325133c0fe22b7c70e6864824f26103012e779"
+    },
+    {
+      "document": "belgic",
+      "section": 35,
+      "title": "第三十五条 论圣餐",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/35",
+      "match": true,
+      "archived_normalized_sha256": "a5c2d963311e308f3730bd7f6c0cf91ce5e7d4e836da1ca8ee33694c1bf4e255"
+    },
+    {
+      "document": "belgic",
+      "section": 36,
+      "title": "第三十六条 论政府治理",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/36",
+      "match": true,
+      "archived_normalized_sha256": "9e61338a20bd1c27450ea294f1eb82ea00cdc7c68d80c0b81a2018a6e7fdd513"
+    },
+    {
+      "document": "belgic",
+      "section": 37,
+      "title": "第三十七条 论末日审判",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession/37",
+      "match": true,
+      "archived_normalized_sha256": "76eb83cfda17e6be4b7626e129816f3e8f81e9434cd6a1a4e28412315565bdc5"
+    },
+    {
+      "document": "heidelberg",
+      "section": 1,
+      "title": "1．问：或生或死，你唯一的安慰是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/lord-day-1",
+      "match": true,
+      "archived_normalized_sha256": "f0db4e7e3743594d2464ff7c454f27ecb370cc21fe49c112dbce7b14563ecdca"
+    },
+    {
+      "document": "heidelberg",
+      "section": 2,
+      "title": "2．问：为了在这样的安慰中喜乐地生或死，你必须知道哪些事呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/lord-day-1",
+      "match": true,
+      "archived_normalized_sha256": "4e22859c6e09720a26b48adf4ac6b28819fdd210b313b9b734d73f011f7718f2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 3,
+      "title": "3．问：你从何处得知你的罪恶和愁苦呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-2",
+      "match": true,
+      "archived_normalized_sha256": "32027a3eef048395d7ae4c15db1b6c15d28b7c7711107c56150c576e2e44aa0b"
+    },
+    {
+      "document": "heidelberg",
+      "section": 4,
+      "title": "4．问：神的律法对我们有什么要求呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-2",
+      "match": true,
+      "archived_normalized_sha256": "8f155b69a1e790a6a3ac3855e6f7b9b9eebe7b6887c9e37a37e900a8ca279468"
+    },
+    {
+      "document": "heidelberg",
+      "section": 5,
+      "title": "5．问：你能完全遵守这些诫命吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-2",
+      "match": true,
+      "archived_normalized_sha256": "98a55ff36bb38f8d126ed1cb241ca60b8bafcf2d8e320cf4418968e34ce5800c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 6,
+      "title": "6．问：神原本就把人造得如此邪恶和悖逆吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-3",
+      "match": true,
+      "archived_normalized_sha256": "4253992ed3e3da6e3f230846d1e34d8b17b737365fd06ee12737e0a9ba757c06"
+    },
+    {
+      "document": "heidelberg",
+      "section": 7,
+      "title": "7．问：那么，败坏的人性从何而来呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-3",
+      "match": true,
+      "archived_normalized_sha256": "bc5462334fd45ec871a50af86f1f69fe718482621bfdaa6a50e32b4e4f9932f2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 8,
+      "title": "8．问：我们是否如此败坏，以致完全没有能力行任何的善，反倒倾向于诸般的恶呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-3",
+      "match": true,
+      "archived_normalized_sha256": "794581b70a73bf6e9286bcb716b8ef3447a89816c1e91f63901e5bcf04f8e495"
+    },
+    {
+      "document": "heidelberg",
+      "section": 9,
+      "title": "9．问：神在律法中要求人做他们所做不到的事，这岂不是不公平吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-4",
+      "match": true,
+      "archived_normalized_sha256": "5d4224cca72279a67efd093040e1314b97f05fcd398fe83dc8869bc9e2da21ba"
+    },
+    {
+      "document": "heidelberg",
+      "section": 10,
+      "title": "10．问：神会任凭这种悖逆和反叛不受惩罚吗?",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-4",
+      "match": true,
+      "archived_normalized_sha256": "2d8e5a3fbccd0f3fc92eaeb6d46188f62b0ea5be077221dfb2c0d3a356150966"
+    },
+    {
+      "document": "heidelberg",
+      "section": 11,
+      "title": "11．问：但是，神不也是慈爱的吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section1/lord-day-4",
+      "match": true,
+      "archived_normalized_sha256": "d3003c5eef374fd26a259aa09558a75cd1e2c2dae30815bde34dc7b5460e6b48"
+    },
+    {
+      "document": "heidelberg",
+      "section": 12,
+      "title": "12．问：既然按照神公义的审判，我们都当受到今生及永世的刑罚，那么我们怎样才能逃脱这刑罚，并再次蒙神恩宠呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "match": true,
+      "archived_normalized_sha256": "779028f5571cf28f09a6f7f019ddb3f1ca22cfb9faeade83538452df340a399d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 13,
+      "title": "13．问：我们自己能够偿还这罪债吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "match": true,
+      "archived_normalized_sha256": "9ea6dbfc5b6134709d50d3a9baa6a106920644da3ac358e177a95eb2fcbed373"
+    },
+    {
+      "document": "heidelberg",
+      "section": 14,
+      "title": "14．问：有没有其他受造物能替我们赎罪呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "match": true,
+      "archived_normalized_sha256": "6b22691ff0c985bbd58438c591b54058bf087e82d169b1e1d1d34e8d485cb440"
+    },
+    {
+      "document": "heidelberg",
+      "section": 15,
+      "title": "15．问：那么，人必须寻求一位怎样的中保和救赎者呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-5",
+      "match": true,
+      "archived_normalized_sha256": "7b8633cff3071ca1686ae081209c4bd7c2da7efe8e8c54620a47b9267e2877d7"
+    },
+    {
+      "document": "heidelberg",
+      "section": 16,
+      "title": "16．问：为什么他必须是真人，且是无罪的人？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "match": true,
+      "archived_normalized_sha256": "2434fedb931b98e73ee3a22e254cd9881ecc24b69d870141c7b9070279dfa866"
+    },
+    {
+      "document": "heidelberg",
+      "section": 17,
+      "title": "17．问：为什么他必须同时是真神呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "match": true,
+      "archived_normalized_sha256": "3aa79c77d4822502bbd6ff75ddca34edf5cf7234ae696a87aa69f1dd0b72f3bb"
+    },
+    {
+      "document": "heidelberg",
+      "section": 18,
+      "title": "18．问：那么，谁是那位中保，既是真神，同时又是真实而无罪的人呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "match": true,
+      "archived_normalized_sha256": "239c1a8834e0190b6bafc0fe1c82eed153ae47bf86b06a8deecd4fb8dbdc2619"
+    },
+    {
+      "document": "heidelberg",
+      "section": 19,
+      "title": "19．问：你从哪里得知这事呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-6",
+      "match": true,
+      "archived_normalized_sha256": "0fd823280c0e6058775baa8ca4360991c5cf540561a6e3f7bb934d2c97afff3a"
+    },
+    {
+      "document": "heidelberg",
+      "section": 20,
+      "title": "20．问：因着亚当，众人都灭亡了。那么是否藉着基督，众人都得救了呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "match": true,
+      "archived_normalized_sha256": "4c70c98cc4d9272932d1740ab2850148c85a8076be138e3994f880bde37502f3"
+    },
+    {
+      "document": "heidelberg",
+      "section": 21,
+      "title": "21．问：什么是真信心？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "match": true,
+      "archived_normalized_sha256": "869202113a70cc8fd7b196738f75074710c74fbab9afd08298c71d9b504c31e1"
+    },
+    {
+      "document": "heidelberg",
+      "section": 22,
+      "title": "22．问：那么，基督徒必须相信什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "match": true,
+      "archived_normalized_sha256": "9bec32fb13e85980c554096f0f8260f9b9b24bf38b00ccf92513cb7b3a5a40e0"
+    },
+    {
+      "document": "heidelberg",
+      "section": 23,
+      "title": "23．问：这一信经包括哪些内容？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-7",
+      "match": true,
+      "archived_normalized_sha256": "6793128cd41c7a6c05fcb458074d59413ef209eda405cab763df46791fc067db"
+    },
+    {
+      "document": "heidelberg",
+      "section": 24,
+      "title": "24．问：这一信经是怎样划分的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-8",
+      "match": true,
+      "archived_normalized_sha256": "35d88e988e4583eba144b994749a5bfaeb46ddd812256ab03cfdd42b18c6b97b"
+    },
+    {
+      "document": "heidelberg",
+      "section": 25,
+      "title": "25．问：既然神只有一位1，那么你为什么说有三位，即圣父、圣子和圣灵呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-8",
+      "match": true,
+      "archived_normalized_sha256": "57ef43cf90a83574bcba80ab754710b4cf91c8c50640a4bede9b0685d6f9afcc"
+    },
+    {
+      "document": "heidelberg",
+      "section": 26,
+      "title": "26．问：当你宣告“我信神，全能的父，创造天地的主”时，你相信什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-9",
+      "match": true,
+      "archived_normalized_sha256": "ccab1eee97267ad28824a84740c7720569d35bc7f1af77c717fb77f07b1915b9"
+    },
+    {
+      "document": "heidelberg",
+      "section": 27,
+      "title": "27．问：你如何理解“神的护理”？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-10",
+      "match": true,
+      "archived_normalized_sha256": "803b45f0ae7a98e5de9391b70cb707f6e64c2d9f3e11b911eee874871e6fffe9"
+    },
+    {
+      "document": "heidelberg",
+      "section": 28,
+      "title": "28．问：知道神创造万有并且仍护理、托住万有对我们有何益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/lord-day-10",
+      "match": true,
+      "archived_normalized_sha256": "008abfb171ef4939682956b228daf1a62a28654fb3c146a35a6061e909cdcee4"
+    },
+    {
+      "document": "heidelberg",
+      "section": 29,
+      "title": "29．问：为什么神的儿子被称为“耶稣”，即救主呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-11",
+      "match": true,
+      "archived_normalized_sha256": "83e728fc9e9339f86ead4c1a8d13a8304f9cd281ddee38cf5d3de490e9f95381"
+    },
+    {
+      "document": "heidelberg",
+      "section": 30,
+      "title": "30．问：那些从圣徒身上、从自身或从别处寻找拯救或福乐的人，也信独一的救主耶稣吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-11",
+      "match": true,
+      "archived_normalized_sha256": "c1937cc6036ff479b96677d8c390a90e795a4564eed8c223571b6b2ff8a7640c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 31,
+      "title": "31．问：为什么称他为“基督”，即受膏者呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-12",
+      "match": true,
+      "archived_normalized_sha256": "99221eccbf91a3d631401f7c320a24344ff4d19e7fa13da60b1a396ab1abc09e"
+    },
+    {
+      "document": "heidelberg",
+      "section": 32,
+      "title": "32．问：为什么你被称为基督徒呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-12",
+      "match": true,
+      "archived_normalized_sha256": "d4973e2baaf662c33849a823a0ccee5d2263d999822c75b5be67b2882fbfde8c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 33,
+      "title": "33．问：既然我们也是神的儿女，为什么基督还被称为神的独生子呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-13",
+      "match": true,
+      "archived_normalized_sha256": "21133fcf58f3db89f78f0da7feb79fac61332bfe302153820ec15d443ad0e9dc"
+    },
+    {
+      "document": "heidelberg",
+      "section": 34,
+      "title": "34．问：你为什么称他为“我们的主”呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-13",
+      "match": true,
+      "archived_normalized_sha256": "a4734864a911053084bcd93bdce3c383a0e289f97ebd80fd77e87e339c81796d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 35,
+      "title": "35．问：你宣告说“因圣灵感孕，从童贞女马利亚所生”，这句话是什么意思？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-14",
+      "match": true,
+      "archived_normalized_sha256": "ca273ba123a5148c360836962ca32523ca4a2cb9c88e45a40e24d541c685f887"
+    },
+    {
+      "document": "heidelberg",
+      "section": 36,
+      "title": "36．问：基督因圣灵感孕而生对你有什么益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-14",
+      "match": true,
+      "archived_normalized_sha256": "4462ad9367aa8276fb6bfc201a532b2e57f2572b12571e51b20833e35388ba29"
+    },
+    {
+      "document": "heidelberg",
+      "section": 37,
+      "title": "37．问：你如何理解他“受难”？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-15",
+      "match": true,
+      "archived_normalized_sha256": "c28e559895e2398232e4cf9e632106790723f5e3bcee17106c4582574b222efa"
+    },
+    {
+      "document": "heidelberg",
+      "section": 38,
+      "title": "38．问：为什么基督在“本丢·彼拉多手下受难”？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-15",
+      "match": true,
+      "archived_normalized_sha256": "8dfcffaf7d7031f1d5aaf94d1104d371dd3f654dafd2d3e19396557e0b527d53"
+    },
+    {
+      "document": "heidelberg",
+      "section": 39,
+      "title": "39．问：基督被钉死在十字架上，而非以其他方式受死有什么特殊意义吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-15",
+      "match": true,
+      "archived_normalized_sha256": "83eca1c3d6e8f8b0718ed5c41c08aaf629cd828131d41064d73ee5f1ad490836"
+    },
+    {
+      "document": "heidelberg",
+      "section": 40,
+      "title": "40．问：基督为什么必须自己卑微， 以至于死呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "match": true,
+      "archived_normalized_sha256": "9218ec12550591edc34361f9bce937c18fdd68ead7a685e56062f3412d73937c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 41,
+      "title": "41．问：为什么耶稣要被“埋葬”呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "match": true,
+      "archived_normalized_sha256": "b947f47108e498d78872e947897e223db78407953344939711856e42d56f455b"
+    },
+    {
+      "document": "heidelberg",
+      "section": 42,
+      "title": "42．问：既然基督已经为我们死了，为什么我们还必须死呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "match": true,
+      "archived_normalized_sha256": "fbf46838fd41258732e03ef77c972f020eae6d5b7b565e91388389b2ec5b36a8"
+    },
+    {
+      "document": "heidelberg",
+      "section": 43,
+      "title": "43．问：从基督在十字架上的献祭和受死，我们还得到了哪些益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "match": true,
+      "archived_normalized_sha256": "5539f08371677a4531d6c7006e1c060e32908d1f0f5342ed56c04a2758ba3d92"
+    },
+    {
+      "document": "heidelberg",
+      "section": 44,
+      "title": "44．问：为什么加上“降在阴间”这句话呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-16",
+      "match": true,
+      "archived_normalized_sha256": "056cd584dbcbd351291b67de43746584d3e8257363f92f7b405d063e5895852f"
+    },
+    {
+      "document": "heidelberg",
+      "section": 45,
+      "title": "45．问：基督的复活使我们得到了哪些益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-17",
+      "match": true,
+      "archived_normalized_sha256": "be6f01263baf502b7b562f3d8dce58c9583321e54047ded59b95dcca000a613d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 46,
+      "title": "46．问：你如何理解他“升天”？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "match": true,
+      "archived_normalized_sha256": "aeb83a23304088b30066c72ff5fbc5c7ca8636db7a09f5887a53ef6146198971"
+    },
+    {
+      "document": "heidelberg",
+      "section": 47,
+      "title": "47．问：这样，基督岂不是没有照他所应许的，与我们同在直到世界的末了吗1？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "match": true,
+      "archived_normalized_sha256": "bcbf517704c5b694f4dda7784e665da2e9bdbcf30c85f69af1759038b989675c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 48,
+      "title": "48．问：但如果基督的神性所在之处不都有人性同在的话，他的神人二性岂不是彼此分离了吗？这岂不是说他的神人二性是彼此分开的吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "match": true,
+      "archived_normalized_sha256": "671897108d084db187c8a233156427b3364cd3046363c4f9fd9b1fffe93d1684"
+    },
+    {
+      "document": "heidelberg",
+      "section": 49,
+      "title": "49．问：基督升天对我们有什么益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-18",
+      "match": true,
+      "archived_normalized_sha256": "c566abe5faeae9dbde9e13be89f7e0c758fb4a511dc28767e81462f35d22eb24"
+    },
+    {
+      "document": "heidelberg",
+      "section": 50,
+      "title": "50．问：为什么加上“坐在全能父神的右边”呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-19",
+      "match": true,
+      "archived_normalized_sha256": "193bc5728673492ab55fc5555bbb0030d5f55a08eb2be7b887c53610758a645e"
+    },
+    {
+      "document": "heidelberg",
+      "section": 51,
+      "title": "51.问：我们从元首基督的这种荣耀中得到哪些益处呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-19",
+      "match": true,
+      "archived_normalized_sha256": "e479cb1676756934200bf3e8d68d3f9c056ac38a27840be7cafc98b1bb9880ac"
+    },
+    {
+      "document": "heidelberg",
+      "section": 52,
+      "title": "52．问：基督“将来必从那里降临，审判活人死人”，这对你有什么安慰呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part1/lord-day-19",
+      "match": true,
+      "archived_normalized_sha256": "37ddebe3aaf093d0099df34d3c087201184b43bf64c6139fbb3e493d26302d01"
+    },
+    {
+      "document": "heidelberg",
+      "section": 53,
+      "title": "53．问：论到圣灵，你相信什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-20",
+      "match": true,
+      "archived_normalized_sha256": "d91f1ccb448c735d4f5497985369a97214d0d508c8931a9df6738599dda63084"
+    },
+    {
+      "document": "heidelberg",
+      "section": 54,
+      "title": "54．问：论到“圣而公之教会”，你相信什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-21",
+      "match": true,
+      "archived_normalized_sha256": "adab39b83d5dd9e38a40973ce4104f91de506758494fea0d56a0c5ea50daadb2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 55,
+      "title": "55．问：你怎样理解“圣徒相通”？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-21",
+      "match": true,
+      "archived_normalized_sha256": "0fea1f049dfc09219d99fb6226694b44542de39ab5ad9399a2b1e67a3ccef3fb"
+    },
+    {
+      "document": "heidelberg",
+      "section": 56,
+      "title": "56．问：论到“罪得赦免”，你相信什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-21",
+      "match": true,
+      "archived_normalized_sha256": "7101bc9d829b53dd7d6d2850590be069c6a7685129a6011cf071918f179292ee"
+    },
+    {
+      "document": "heidelberg",
+      "section": 57,
+      "title": "57．问：“身体复活”带给你什么安慰？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-22",
+      "match": true,
+      "archived_normalized_sha256": "6fe0cee1a60c20a668b85fff6795b978dcc727d2e2032e270495c3d41834a03e"
+    },
+    {
+      "document": "heidelberg",
+      "section": 58,
+      "title": "58．问：你从“我相信永生”这句话中得着什么安慰？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part2/lord-day-22",
+      "match": true,
+      "archived_normalized_sha256": "fb8756e121b3111745188b58c38511daabe4e050cea16380e326f2104433e1f7"
+    },
+    {
+      "document": "heidelberg",
+      "section": 59,
+      "title": "59．问：相信这一信经所宣告的内容对你有什么帮助？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-23",
+      "match": true,
+      "archived_normalized_sha256": "c60c4d3534702b51543402ca0be9c52c335416ca368c4c3efd901945ebba8eb7"
+    },
+    {
+      "document": "heidelberg",
+      "section": 60,
+      "title": "60．问：你怎样在神面前称义呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-23",
+      "match": true,
+      "archived_normalized_sha256": "3455218eecc16eaf8cd8088aaabcdfb6c68bb7afde54bca898bb6f101021d3fb"
+    },
+    {
+      "document": "heidelberg",
+      "section": 61,
+      "title": "61．问：你为什么说唯独因信称义呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-23",
+      "match": true,
+      "archived_normalized_sha256": "01f16dcc7a7fbea6bff4d3ea3ca9e10ec34b582b16ff152a2afd24d2598c2da1"
+    },
+    {
+      "document": "heidelberg",
+      "section": 62,
+      "title": "62．问：为什么我们的善行不能成为我们在神面前的义，或者至少是部分的义呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-24",
+      "match": true,
+      "archived_normalized_sha256": "f294ed169fc3aa53258bf9d8c17acf3731ef11cb20c4f842a9449b7b4766f6e3"
+    },
+    {
+      "document": "heidelberg",
+      "section": 63,
+      "title": "63．问：神应许按着各人所行的在今生和来世奖赏各人。即便如此，我们的善行还是不能为我们赚取什么吗1？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-24",
+      "match": true,
+      "archived_normalized_sha256": "54297707fabdec91c890830a9dfc4ca5ef1f3c5f0676d46bbe82340d3ccdfb85"
+    },
+    {
+      "document": "heidelberg",
+      "section": 64,
+      "title": "64．问：这个教导岂不会使人随性而为，甚至道德败坏吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part3/lord-day-24",
+      "match": true,
+      "archived_normalized_sha256": "2c198dcb271cb91dcd1c0ead5cce4af3b7022c1a7a953cb68a13189fd278bfa1"
+    },
+    {
+      "document": "heidelberg",
+      "section": 65,
+      "title": "65．问：如此说来，我们唯独因信才有份于基督及其一切的恩惠。那么这信是从何而来的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "match": true,
+      "archived_normalized_sha256": "2ca474114931e0cc895d23efa0ddbb363a0eedd1bdb123d6bf7e3565c5a08e14"
+    },
+    {
+      "document": "heidelberg",
+      "section": 66,
+      "title": "66．问：什么是圣礼？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "match": true,
+      "archived_normalized_sha256": "1d163ee6a2e97d0bcb8c590befba252651aeed363222b646cb0666e63f059031"
+    },
+    {
+      "document": "heidelberg",
+      "section": 67,
+      "title": "67．问：圣言和圣礼都是为了使我们专心相信耶稣基督在十字架上的献祭是我们得救的唯一根基吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "match": true,
+      "archived_normalized_sha256": "4242d849cede8cb57149b0aef0ab4868062cc27ba36e593895c7e1b85d739755"
+    },
+    {
+      "document": "heidelberg",
+      "section": 68,
+      "title": "68．问：基督在新约中设立了几个圣礼？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part4/lord-day-25",
+      "match": true,
+      "archived_normalized_sha256": "02d039e326312b23a12173b27220efee9ddefd05502c1ab5ff9dd2ed350d5cb3"
+    },
+    {
+      "document": "heidelberg",
+      "section": 69,
+      "title": "69．问：洗礼是如何向你表明并印证基督在十字架上一次的献祭于你有益的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-26",
+      "match": true,
+      "archived_normalized_sha256": "db52203350c94a4bff91d0f539a9a7b4fca202c8e9f6e6625c4b033679be8fe1"
+    },
+    {
+      "document": "heidelberg",
+      "section": 70,
+      "title": "70．问：受基督宝血和圣灵的洗是什么意思呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-26",
+      "match": true,
+      "archived_normalized_sha256": "9155aff23e4133f44d003ca6a243812743462b7c29964192b967487030e23cfa"
+    },
+    {
+      "document": "heidelberg",
+      "section": 71,
+      "title": "71．问：基督在哪里应许我们，他要用他的宝血与圣灵洗涤我们，正如洗礼的水洗涤我们一样呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-26",
+      "match": true,
+      "archived_normalized_sha256": "e58b28f399391c6eef4b196b618398010bcc5880c1a533783b781ac626e23ef4"
+    },
+    {
+      "document": "heidelberg",
+      "section": 72,
+      "title": "72．问：外在的水洗能除去罪吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+      "match": true,
+      "archived_normalized_sha256": "52f77b4b1a192dd3b362732d9996ca9eb03cf605a0dc7518371d2048843fc0ca"
+    },
+    {
+      "document": "heidelberg",
+      "section": 73,
+      "title": "73．问：既然如此，圣灵为什么称洗礼是重生和除罪的洗呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+      "match": true,
+      "archived_normalized_sha256": "8c52349aa206e8709830489ba21346b9f711c0af902ab56169c8066763cf0494"
+    },
+    {
+      "document": "heidelberg",
+      "section": 74,
+      "title": "74．问：婴孩也要受洗吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part5/lord-day-27",
+      "match": true,
+      "archived_normalized_sha256": "e6a944ef50cefc0a6f959cf8841fd5499f2ae0150bc757bb8b80d24017a6bde1"
+    },
+    {
+      "document": "heidelberg",
+      "section": 75,
+      "title": "75．问：圣餐是如何向你表明并印证，你有份于基督在十字架上一次的献祭及其一切恩惠的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-28",
+      "match": true,
+      "archived_normalized_sha256": "82b15518032dd4fc2f144342e593475131f12e9e37e821d65af225623ff5d822"
+    },
+    {
+      "document": "heidelberg",
+      "section": 76,
+      "title": "76．问：吃基督被钉的身体，喝他所流的宝血是什么意思？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-28",
+      "match": true,
+      "archived_normalized_sha256": "bb9ae9a1e8b35751f800f38dc2aecb1a565c273a87ede8b3b9f3057c7322d142"
+    },
+    {
+      "document": "heidelberg",
+      "section": 77,
+      "title": "77．问：基督在何处应许说，他要用自己的身体和宝血使信徒得喂养和更新，就像使他们从吃这擘开的饼、喝这杯中得喂养一样？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-28",
+      "match": true,
+      "archived_normalized_sha256": "085e13200140c04df70f611bdc3950d0779ffe96f5aab0d2789921df3c20e144"
+    },
+    {
+      "document": "heidelberg",
+      "section": 78,
+      "title": "78．问：那么，这饼和酒真的是变成基督的身体和宝血了吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-29",
+      "match": true,
+      "archived_normalized_sha256": "34ee14e9840cef0c17d97fd87baacf0f0c2f04cb20b32af79ae46f0b6f7ac050"
+    },
+    {
+      "document": "heidelberg",
+      "section": 79,
+      "title": "79．问：那么，基督为什么称这饼是他的身体，这杯是他的血，是用他的血所立的新约呢？另外，为什么保罗也说到同领基督的身体和血呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-29",
+      "match": true,
+      "archived_normalized_sha256": "34cef5948f080e5eec6d698f01d6f1b0b5427ec3cf5867c687dbc374cdc1618a"
+    },
+    {
+      "document": "heidelberg",
+      "section": 80,
+      "title": "80．问：圣餐与天主教的弥撒有什么不同？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-30",
+      "match": true,
+      "archived_normalized_sha256": "92a5c3f3e94b2122f570c6f03ea6cb90f7680cba9620a4ef51f6b0b595638f5d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 81,
+      "title": "81．问：什么人可以到主的桌前领圣餐呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-30",
+      "match": true,
+      "archived_normalized_sha256": "83410682ac8375019af2d07a85b1d55c0a6871b10e5b76c6c145dd314917bb0f"
+    },
+    {
+      "document": "heidelberg",
+      "section": 82,
+      "title": "82．问：那些在言行上显为不信不虔的人，也可以领圣餐吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-30",
+      "match": true,
+      "archived_normalized_sha256": "c405d6f1f0cd63f9936016c57e1eef726ba3318b5b88195d19211f74166c886a"
+    },
+    {
+      "document": "heidelberg",
+      "section": 83,
+      "title": "83．问：什么是天国的钥匙？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-31",
+      "match": true,
+      "archived_normalized_sha256": "2869978d94f00073e7ebcd12551a5677628cd083bd96bd3e2bf3b7fb1d25f930"
+    },
+    {
+      "document": "heidelberg",
+      "section": 84,
+      "title": "84．问：天国是如何藉着神圣福音的宣讲开放或关闭的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-31",
+      "match": true,
+      "archived_normalized_sha256": "4f6d355cffb554b86fb7269e960593c9de6eadd06c73df140e89928ce9f7f140"
+    },
+    {
+      "document": "heidelberg",
+      "section": 85,
+      "title": "85．问：天国是如何藉着教会纪律开放或关闭的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section2/part6/lord-day-31",
+      "match": true,
+      "archived_normalized_sha256": "6f46f7b5d16edecc213feb19fcae1a540b62f6de09067f3790c33f0ed97c90df"
+    },
+    {
+      "document": "heidelberg",
+      "section": 86,
+      "title": "86．问：既然我们不是靠自己的任何功德，而是唯独因着基督的恩典从愁苦中得拯救的，那么，为什么我们还要行善呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-32",
+      "match": true,
+      "archived_normalized_sha256": "9893c989494614121bbc8ff8a4846a7004fb66bcb9f3f42381d345389f6ceec2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 87,
+      "title": "87．问：那些忘恩负义、拒不悔改归向神的人能得救吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-32",
+      "match": true,
+      "archived_normalized_sha256": "ebf3d018568ef8e41b23209cff90bab03c7241579e5389fb891ccfda7bee3eef"
+    },
+    {
+      "document": "heidelberg",
+      "section": 88,
+      "title": "88．问：什么是真正的悔改或归正呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "match": true,
+      "archived_normalized_sha256": "1791950d5b9b55fcbe441af0a54c3b12688149da25a0fca4261d7bc7bb6c4c84"
+    },
+    {
+      "document": "heidelberg",
+      "section": 89,
+      "title": "89．问：什么是旧人死去呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "match": true,
+      "archived_normalized_sha256": "19188a19bbfd02cfeddc14bed36951de31fa0f690059ea43d645c604444e5d7a"
+    },
+    {
+      "document": "heidelberg",
+      "section": 90,
+      "title": "90．问：什么是活出新人？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "match": true,
+      "archived_normalized_sha256": "701d7949983709e937f6cd802359363fa70b78b2ada1e1fc8af23b35d416836a"
+    },
+    {
+      "document": "heidelberg",
+      "section": 91,
+      "title": "91．问：什么是善事？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/lord-day-33",
+      "match": true,
+      "archived_normalized_sha256": "cc31bfae8c5c6d1f7758648f2d15549023ef7414f7a15ddf7514467f8dda4975"
+    },
+    {
+      "document": "heidelberg",
+      "section": 92,
+      "title": "92．问：什么是神的律法？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "match": true,
+      "archived_normalized_sha256": "68a33511b00c05256e3e66875410994d3161e0390618fec94c090d3c12ace21f"
+    },
+    {
+      "document": "heidelberg",
+      "section": 93,
+      "title": "93．问：这些诫命是如何划分的？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "match": true,
+      "archived_normalized_sha256": "d15f6f4fe84a63852b1d8c4dc8d27f7cdff45ff28712ad10b0ef872004434684"
+    },
+    {
+      "document": "heidelberg",
+      "section": 94,
+      "title": "94．问：神在第一条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "match": true,
+      "archived_normalized_sha256": "5dd0ee7fbb3e8ca6a1bf583d1b615f6c6ba731897c57bc83b18691e2f1ad9359"
+    },
+    {
+      "document": "heidelberg",
+      "section": 95,
+      "title": "95．问：什么是拜偶像？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-34",
+      "match": true,
+      "archived_normalized_sha256": "b08ba2ad58e85bf73d79467dcf3981c3028385ac51ba3c0e864146cdd7adfdbb"
+    },
+    {
+      "document": "heidelberg",
+      "section": 96,
+      "title": "96．问：神在第二条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-35",
+      "match": true,
+      "archived_normalized_sha256": "70b13e194f13e163579fe38c83715ae7094bf88a9842325934b31ee77228fb70"
+    },
+    {
+      "document": "heidelberg",
+      "section": 97,
+      "title": "97. 问：那么，我们绝不可以制作神的任何形像吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-35",
+      "match": true,
+      "archived_normalized_sha256": "b2798959df9e625b23a479335c12e6b722c1c51ef8e10944d9a1566c86a8449c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 98,
+      "title": "98.问：难道这些像放在教堂里用以教导平信徒也不允许吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-35",
+      "match": true,
+      "archived_normalized_sha256": "ecd86224134b39ed7fb98f6e4d088e699b3c0459ed28a8c99063b5e2579a6d5d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 99,
+      "title": "99．问：神在第三条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-36",
+      "match": true,
+      "archived_normalized_sha256": "1009c17feb9acd64550e241d5d2c8076ed371a9e6a3a459411b90683b4ec685b"
+    },
+    {
+      "document": "heidelberg",
+      "section": 100,
+      "title": "100．问：以起誓和咒诅来亵渎神的名真是如此严重的罪，以至于神的忿怒也降在那些不尽力拦阻和制止该罪的人身上吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-36",
+      "match": true,
+      "archived_normalized_sha256": "cf029aeea45510621c13b093b4f22b6f525d8b06facf18e75dfd6140de05603d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 101,
+      "title": "101．问：那么，我们可以用敬虔的态度奉神的名起誓吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-37",
+      "match": true,
+      "archived_normalized_sha256": "9aa11a5433fc5f145c393816e80e8d102623f64a9d3c0ccd8a751abd18a9de20"
+    },
+    {
+      "document": "heidelberg",
+      "section": 102,
+      "title": "102．问：我们可以指着圣徒或其他受造物起誓吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-37",
+      "match": true,
+      "archived_normalized_sha256": "eef949d44db361bc3232c00e88821b6ec4de34d03c9ca461f5f82a5907ca90c9"
+    },
+    {
+      "document": "heidelberg",
+      "section": 103,
+      "title": "103．问：神在第四条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-38",
+      "match": true,
+      "archived_normalized_sha256": "583a8f188a833dcb05db79d0462f274049810165d82d355aaf4c4446e912d983"
+    },
+    {
+      "document": "heidelberg",
+      "section": 104,
+      "title": "104．问：神在第五条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-39",
+      "match": true,
+      "archived_normalized_sha256": "8ca4ea3c15be1b446aa67158275c41e3191a6760f2db78c270dbf309e3bac36d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 105,
+      "title": "105．问：神在第六条诫命中吩咐了什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40",
+      "match": true,
+      "archived_normalized_sha256": "3c6c7760034d363ba6748de89b0dd0a67d568cedfbe62640c3326e256fa62276"
+    },
+    {
+      "document": "heidelberg",
+      "section": 106,
+      "title": "106．问：这条诫命仅仅论及谋杀吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40",
+      "match": true,
+      "archived_normalized_sha256": "93c3b2fdfb5668600fd9199481fa5715ce64f3ab34378272e4ce090a248050f0"
+    },
+    {
+      "document": "heidelberg",
+      "section": 107,
+      "title": "107．问：我们只要不这样杀害邻舍就够了吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-40",
+      "match": true,
+      "archived_normalized_sha256": "042c645471c34d409545a5e649c98256fb2f3aa0015082e590a988e1b102cc00"
+    },
+    {
+      "document": "heidelberg",
+      "section": 108,
+      "title": "108．问：神在第七条诫命中教导我们什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-41",
+      "match": true,
+      "archived_normalized_sha256": "abb030bee97120f3a65efdc48075eab506f7f05e4d7e95627c4b51f180213626"
+    },
+    {
+      "document": "heidelberg",
+      "section": 109,
+      "title": "109．问：神在这条诫命中只禁止淫乱及类似的可耻之罪吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-41",
+      "match": true,
+      "archived_normalized_sha256": "d70216d288ebf3c8c99f11d8980ff82f287769b5b1c7729acabae020fe47e6ab"
+    },
+    {
+      "document": "heidelberg",
+      "section": 110,
+      "title": "110．问：神在第八条诫命中禁止什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-42",
+      "match": true,
+      "archived_normalized_sha256": "a60dad304907edf612df2982aa11eac0d2562ac2984ce56597ca60c2c93f6f28"
+    },
+    {
+      "document": "heidelberg",
+      "section": 111,
+      "title": "111．问：神在这条诫命中对你的要求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-42",
+      "match": true,
+      "archived_normalized_sha256": "bb75bb5f1172f24883a591a92d44a74b06af564bbba8bd0feab065c63a861aa2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 112,
+      "title": "112．问：神在第九条诫命中的要求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-43",
+      "match": true,
+      "archived_normalized_sha256": "fe3abeca3b0be59be2cee26c0653e172d5199671d9b5113d5b79f8ae2aa798e4"
+    },
+    {
+      "document": "heidelberg",
+      "section": 113,
+      "title": "113．问：神在第十条诫命中对我们有什么要求？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-44",
+      "match": true,
+      "archived_normalized_sha256": "074d66d683d70c70399f059fd48f12e86c105b97c59f1511e653486ebe66e133"
+    },
+    {
+      "document": "heidelberg",
+      "section": 114,
+      "title": "114．问：那些归信神的人能完全遵守这些诫命吗？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-44",
+      "match": true,
+      "archived_normalized_sha256": "f7a3bdfa52bd6dba3dff12a1c42ac26bb4d1513762eabdb5817abfd4bf4e0e6d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 115,
+      "title": "115．问：既然今生没有人能完全遵守这些诫命，神为什么仍要求十诫被严格地宣讲呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part1/lord-day-44",
+      "match": true,
+      "archived_normalized_sha256": "2a08e32fda7e2a4d00b340f05241cc6f7e75abaec3fda33a1cc1c82ccb91d094"
+    },
+    {
+      "document": "heidelberg",
+      "section": 116,
+      "title": "116．问：为什么祷告对基督徒来说是必不可少的呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "match": true,
+      "archived_normalized_sha256": "94a30b0371534e4b9ec37a5dd5f869f25f81cbf3b610a2af35527326f22e3135"
+    },
+    {
+      "document": "heidelberg",
+      "section": 117,
+      "title": "117．问：什么样的祷告才蒙神悦纳和垂听？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "match": true,
+      "archived_normalized_sha256": "cde3e68cdb64689347fefa53371a2e6dffde84c2a10be9c5db190aacce135c1d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 118,
+      "title": "118．问：神吩咐我们向他祈求什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "match": true,
+      "archived_normalized_sha256": "5a99d940f7fbc99ed89975a55b43367c602f05524a446f1489b68afc6c4d478b"
+    },
+    {
+      "document": "heidelberg",
+      "section": 119,
+      "title": "119．问：什么是主祷文？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-45",
+      "match": true,
+      "archived_normalized_sha256": "b02b2b5a458814083791ce16da88f3c3f76f39b6ec6d8639e933fae0225393a7"
+    },
+    {
+      "document": "heidelberg",
+      "section": 120,
+      "title": "120．问：为什么基督吩咐我们称呼神为“我们……的父”呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-46",
+      "match": true,
+      "archived_normalized_sha256": "0ef518735775956fa0a2a97f2a18766d071d29b0c1b368846bac55efb058d2d2"
+    },
+    {
+      "document": "heidelberg",
+      "section": 121,
+      "title": "121．问：这里为什么加上“在天上”这个词呢？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-46",
+      "match": true,
+      "archived_normalized_sha256": "5b00c03bdb5c199bb64ed54eeb4d043cc39e2497e61d1cea1a3e9ba031336556"
+    },
+    {
+      "document": "heidelberg",
+      "section": 122,
+      "title": "122．问：主祷文中的第一个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-47",
+      "match": true,
+      "archived_normalized_sha256": "5eb6fd0520a75edec0c4fbb1f7c52f75d528afe180d813f205be1ba513c4294d"
+    },
+    {
+      "document": "heidelberg",
+      "section": 123,
+      "title": "123．问：第二个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-48",
+      "match": true,
+      "archived_normalized_sha256": "c1ccf299aed068e6ee1cee42ce33d8d88dd29a9c2865e333d7b80efdd0b53fd0"
+    },
+    {
+      "document": "heidelberg",
+      "section": 124,
+      "title": "124．问：第三个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-49",
+      "match": true,
+      "archived_normalized_sha256": "551cc6b7d93ceacdccd013c7cc62f4dc3a1fe03d1c3b41ad68f7fcc42f8d6a17"
+    },
+    {
+      "document": "heidelberg",
+      "section": 125,
+      "title": "125．问：第四个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-50",
+      "match": true,
+      "archived_normalized_sha256": "ae99d58c884d70c99442623a524fddcb0d815caa9593bb4b84a0f5d6bf9ebd87"
+    },
+    {
+      "document": "heidelberg",
+      "section": 126,
+      "title": "126．问：第五个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-51",
+      "match": true,
+      "archived_normalized_sha256": "f808d1028f86f71b3a4b8a63fd85f0b9ff7a5f96dfdfa386d8732dca3b5d926e"
+    },
+    {
+      "document": "heidelberg",
+      "section": 127,
+      "title": "127．问：第六个祈求是什么？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-52",
+      "match": true,
+      "archived_normalized_sha256": "4b094bd5f2732351f743db5f834f2490a56b7ca2a384244570bbe34a21854bc0"
+    },
+    {
+      "document": "heidelberg",
+      "section": 128,
+      "title": "128．问：主祷文是如何结束的？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-52",
+      "match": true,
+      "archived_normalized_sha256": "6402b0b8167dbdccaece72e25475ab5396346811657e854f227788505bcc578c"
+    },
+    {
+      "document": "heidelberg",
+      "section": 129,
+      "title": "129．问：“阿们”是什么意思？",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism/section3/part2/lord-day-52",
+      "match": true,
+      "archived_normalized_sha256": "73b6c857196dc30bd817f47f9dd310c964fbb067c4b71025e0cd0dc05186f7ae"
+    },
+    {
+      "document": "dort",
+      "section": 1,
+      "title": "第一条 全人类都该被神定罪",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/1",
+      "match": true,
+      "archived_normalized_sha256": "2a156c634729a955ea9ff8d24a5a4691d884ba887e02253a7f6579629d2b4468"
+    },
+    {
+      "document": "dort",
+      "section": 2,
+      "title": "第二条 神差爱子",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/2",
+      "match": true,
+      "archived_normalized_sha256": "8240ef2dc2f7ccd1468b3a267baee45ecda4b7b082dc630393a0ea45731275d0"
+    },
+    {
+      "document": "dort",
+      "section": 3,
+      "title": "第三条 福音的传讲",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/3",
+      "match": true,
+      "archived_normalized_sha256": "d0394783dae05818c8f771eb76ed2885a76ce34b461a13ac02cd4a594a37cd2b"
+    },
+    {
+      "document": "dort",
+      "section": 4,
+      "title": "第四条 两种结局",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/4",
+      "match": true,
+      "archived_normalized_sha256": "329b9d5b1968515a76ebd8389e7f9b076be51ac7dc8e8f8c743a8b6d88dda2bb"
+    },
+    {
+      "document": "dort",
+      "section": 5,
+      "title": "第五条 不信的缘由与信的源头",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/5",
+      "match": true,
+      "archived_normalized_sha256": "26b25e8dd9c9e4cacd8ec8a0044893cff52b74f37d72659229315722be65c6f8"
+    },
+    {
+      "document": "dort",
+      "section": 6,
+      "title": "第六条 神永恒的定旨",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/6",
+      "match": true,
+      "archived_normalized_sha256": "72ad0aa80e2d93e3cfd6c271749cea66fc50835ea96487c1995ea8c0cd278d99"
+    },
+    {
+      "document": "dort",
+      "section": 7,
+      "title": "第七条 拣选的定义",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/7",
+      "match": true,
+      "archived_normalized_sha256": "1f6e33b067c5c7d9dbe4e8507485cd47495c6913228dacec297461930873f329"
+    },
+    {
+      "document": "dort",
+      "section": 8,
+      "title": "第八条 拣选定旨的唯一性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/8",
+      "match": true,
+      "archived_normalized_sha256": "616e0f429402cfc80f4c4a85467a77f2d4878dd68043040bddbc5e7c3b5ea6c3"
+    },
+    {
+      "document": "dort",
+      "section": 9,
+      "title": "第九条 拣选不是基于神预见我们会信",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/9",
+      "match": true,
+      "archived_normalized_sha256": "d9e228483eb36644c05358b9557aaf3bab996650f27025a5dd9c540b37be2915"
+    },
+    {
+      "document": "dort",
+      "section": 10,
+      "title": "第十条 拣选出于神的美意",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/10",
+      "match": true,
+      "archived_normalized_sha256": "2f0d176290f2742cfcf87e30617b48da5228679b62e69170ed8e8166cf5c38f7"
+    },
+    {
+      "document": "dort",
+      "section": 11,
+      "title": "第十一条 拣选的不变性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/11",
+      "match": true,
+      "archived_normalized_sha256": "0bf0a4fe4a9d1872abde8d9406acce2e040d3e871e4d3609126160b443cca814"
+    },
+    {
+      "document": "dort",
+      "section": 12,
+      "title": "第十二条 确信蒙拣选",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/12",
+      "match": true,
+      "archived_normalized_sha256": "1f4f90b0d21c5d1328a0983f7c2445d47f46ab6bafe64e3f79ab7a12570541f4"
+    },
+    {
+      "document": "dort",
+      "section": 13,
+      "title": "第十三条 确信蒙拣选的重要性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/13",
+      "match": true,
+      "archived_normalized_sha256": "df0e78618bbe4d3ca4b63ff8af9db39d0bb0f3ecfe2d3b51166f5374482d219c"
+    },
+    {
+      "document": "dort",
+      "section": 14,
+      "title": "第十四条 如何教导拣选的教义",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/14",
+      "match": true,
+      "archived_normalized_sha256": "c4158f3e193d1c9549ebcb1b8cb80e45fd622baf2d390b67650a717f1649d516"
+    },
+    {
+      "document": "dort",
+      "section": 15,
+      "title": "第十五条 圣经中所描述的弃绝",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/15",
+      "match": true,
+      "archived_normalized_sha256": "38b7bb963bde97db5d5997dd77100a84ffe4d7b3daa3f2a301ccdfb92ae46d37"
+    },
+    {
+      "document": "dort",
+      "section": 16,
+      "title": "第十六条 对弃绝教义的回应",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/16",
+      "match": true,
+      "archived_normalized_sha256": "069664fc5f4dd51c39728a181b67c22180e399be6926aa8612900227e71a9378"
+    },
+    {
+      "document": "dort",
+      "section": 17,
+      "title": "第十七条 死于婴幼期的信徒儿女",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/17",
+      "match": true,
+      "archived_normalized_sha256": "9e51908d0aa3fdc92dfe419ab3e7d5691a4a87ec42ee325a432ac29622c7bcbd"
+    },
+    {
+      "document": "dort",
+      "section": 18,
+      "title": "第十八条 不是反对，而是赞美",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/18",
+      "match": true,
+      "archived_normalized_sha256": "322ee94d70c869dbab95d860510e25036ee7425d8def01a5324fb145711088c9"
+    },
+    {
+      "document": "dort",
+      "section": 19,
+      "title": "错谬反驳",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section1/19",
+      "match": true,
+      "archived_normalized_sha256": "5320351baa92a2eca3aba4db6221651cf8415432c6a46eb66bafefa09754e012"
+    },
+    {
+      "document": "dort",
+      "section": 20,
+      "title": "第一条 神的公义所要求的刑罚",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/1",
+      "match": true,
+      "archived_normalized_sha256": "e38692416df1b1c09f879a435551005b3548487de1d1e1b26d2a520de5269d23"
+    },
+    {
+      "document": "dort",
+      "section": 21,
+      "title": "第二条 基督满足了神的公义",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/2",
+      "match": true,
+      "archived_normalized_sha256": "7fe15a3294d39a1f5dd7261d304dbbb9e98f709a8486b5ae679a2d3a369fc0cc"
+    },
+    {
+      "document": "dort",
+      "section": 22,
+      "title": "第三条 基督之死有无限价值",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/3",
+      "match": true,
+      "archived_normalized_sha256": "22056ce0ababf15035778d8ccd0e35d52e4ac808665eae0926954f58a600a0a3"
+    },
+    {
+      "document": "dort",
+      "section": 23,
+      "title": "第四条 基督之死无价的原因",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/4",
+      "match": true,
+      "archived_normalized_sha256": "586f44fa43cb70aa690081fecbbd24fd00bf88c2d0fc6bf05d5db904cf149717"
+    },
+    {
+      "document": "dort",
+      "section": 24,
+      "title": "第五条 福音的普世宣告",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/5",
+      "match": true,
+      "archived_normalized_sha256": "b5d30f871ecae9cce38486b1cba2c1ac6efb7557d0c21a3a5fef73c6feb418b3"
+    },
+    {
+      "document": "dort",
+      "section": 25,
+      "title": "第六条 为何有人不信基督",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/6",
+      "match": true,
+      "archived_normalized_sha256": "aa7bc0b57bcd1781a4b6771c2fe6adaa6084dfcf34ec6ad12e79fc355686cc8b"
+    },
+    {
+      "document": "dort",
+      "section": 26,
+      "title": "第七条 为何有人信基督",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/7",
+      "match": true,
+      "archived_normalized_sha256": "1ee00f830db8e6f4d339bdaaeab0aabff3fa38cadfad92f682d7d45823a2e2ef"
+    },
+    {
+      "document": "dort",
+      "section": 27,
+      "title": "第八条 基督之死的果效",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/8",
+      "match": true,
+      "archived_normalized_sha256": "bd03b6cf96ac743e22e7395d5ae09de87acf3a9dcd4f26a46ca8777817507ce1"
+    },
+    {
+      "document": "dort",
+      "section": 28,
+      "title": "第九条 父神定旨的成全",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/9",
+      "match": true,
+      "archived_normalized_sha256": "318063b92b5769f77a35e6f162ba8e0db07306bf42e4966babc6da424aa2f960"
+    },
+    {
+      "document": "dort",
+      "section": 29,
+      "title": "错谬反驳",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section2/10",
+      "match": true,
+      "archived_normalized_sha256": "961c06d15c25adb5f5c24d5c893884b69a952cf06a73dc8ff28783b5e18dee85"
+    },
+    {
+      "document": "dort",
+      "section": 30,
+      "title": "第一条 堕落带来的后果",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/1",
+      "match": true,
+      "archived_normalized_sha256": "fabfad0f4159a16418d93e8d162f0f8404848a0cbc64358e27275c6fd243c31f"
+    },
+    {
+      "document": "dort",
+      "section": 31,
+      "title": "第二条 败坏的传播",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/2",
+      "match": true,
+      "archived_normalized_sha256": "d797e356ad922f98b9337e8ca123d4ba9bf38b39c1e87fd82f483207dfb88b2b"
+    },
+    {
+      "document": "dort",
+      "section": 32,
+      "title": "第三条 人的全然无能",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/3",
+      "match": true,
+      "archived_normalized_sha256": "d9a30f8ee2a8663d246c4790a475594db4c40478e59f7f2d2eb77045d28c74f9"
+    },
+    {
+      "document": "dort",
+      "section": 33,
+      "title": "第四条 罪人本性中余光的不足",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/4",
+      "match": true,
+      "archived_normalized_sha256": "509e743b503295d9079ef43a55e9997d5a727c9a0e190f2931b5f52d89eaf45f"
+    },
+    {
+      "document": "dort",
+      "section": 34,
+      "title": "第五条 律法的不足",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/5",
+      "match": true,
+      "archived_normalized_sha256": "fcd940e28e3ccc6f8634f5244a70a7d88e9f14de4f94518b08556c7ba37c2076"
+    },
+    {
+      "document": "dort",
+      "section": 35,
+      "title": "第六条 人需要福音",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/6",
+      "match": true,
+      "archived_normalized_sha256": "2a3275dad8cd9297ab6832ff7f1d2913d9144e356d64f885faa7c4821563b58b"
+    },
+    {
+      "document": "dort",
+      "section": 36,
+      "title": "第七条 为何福音只给了一些人，却不给其他人",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/7",
+      "match": true,
+      "archived_normalized_sha256": "edc53f60aba90aedc95cb7a313207944ddd0d979f69791f3c921dd2aed79e906"
+    },
+    {
+      "document": "dort",
+      "section": 37,
+      "title": "第八条 福音诚挚的呼召",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/8",
+      "match": true,
+      "archived_normalized_sha256": "7d74e3bb6b22ab4888cf62083a2189b42abf52e9072f86642ae2619eb17688bb"
+    },
+    {
+      "document": "dort",
+      "section": 38,
+      "title": "第九条 为何有人蒙召却没有来到神的面前",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/9",
+      "match": true,
+      "archived_normalized_sha256": "8d71e5c81f6ac3c36d2cfbba79e22f24e8f7f784de9243402f305ac561ef8a5e"
+    },
+    {
+      "document": "dort",
+      "section": 39,
+      "title": "第十条 为何其他人蒙召就来到神面前",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/10",
+      "match": true,
+      "archived_normalized_sha256": "ffca7ec342804291f88ef95c57bab58a39646dce8d8cf4eee94c1213182de094"
+    },
+    {
+      "document": "dort",
+      "section": 40,
+      "title": "第十一条 神是如何使人归信的",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/11",
+      "match": true,
+      "archived_normalized_sha256": "294830b096ddee5a60468942f29b58f63632253ae56909cc84991d41fa87fd8f"
+    },
+    {
+      "document": "dort",
+      "section": 41,
+      "title": "第十二条 重生完全是神的工作",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/12",
+      "match": true,
+      "archived_normalized_sha256": "dcba98edea443e573de565ba3552a1bc191774bad484ba869f502be9e6e4732c"
+    },
+    {
+      "document": "dort",
+      "section": 42,
+      "title": "第十三条 重生之道深不可测",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/13",
+      "match": true,
+      "archived_normalized_sha256": "b24d2645ef6615ec75d71e9cd4c5f7a2ae298b309f35dbc88ab84ab812411699"
+    },
+    {
+      "document": "dort",
+      "section": 43,
+      "title": "第十四条 为何信心是神赐的礼物",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/14",
+      "match": true,
+      "archived_normalized_sha256": "59895effec3d093260f4960624840be67c4ff651feaeeb4f691fe34688a76047"
+    },
+    {
+      "document": "dort",
+      "section": 44,
+      "title": "第十五条 对待神恩典的正确态度",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/15",
+      "match": true,
+      "archived_normalized_sha256": "be6cddab3293f3d249544a606e43ad606b88438937e53bdcdcdf04bf6888d5db"
+    },
+    {
+      "document": "dort",
+      "section": 45,
+      "title": "第十六条 人的自由意志不是被剥夺了，而是被更新了",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/16",
+      "match": true,
+      "archived_normalized_sha256": "bc5b9579593911cdff4da93b49d8ac8e2520d5bf435204d3fc93692b65615216"
+    },
+    {
+      "document": "dort",
+      "section": 46,
+      "title": "第十七条 神使用方法使人重生",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/17",
+      "match": true,
+      "archived_normalized_sha256": "270fa52295cd5c5ad2ca05c2f1db25e1483e65632949af3b0289a29e16a6a547"
+    },
+    {
+      "document": "dort",
+      "section": 47,
+      "title": "错谬反驳",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section3-4/18",
+      "match": true,
+      "archived_normalized_sha256": "c499222397df69ed8d1a950bc94704668a626cdde4d94210ff66fb6d9d52a05d"
+    },
+    {
+      "document": "dort",
+      "section": 48,
+      "title": "第一条 重生的人并非已脱离罪性",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/1",
+      "match": true,
+      "archived_normalized_sha256": "41cf3d9c74ffab5cc4f8270f5c8b52d1017b5c82e7e04d1bd85acdc65bfce789"
+    },
+    {
+      "document": "dort",
+      "section": 49,
+      "title": "第二条 信徒每天都因软弱犯罪",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/2",
+      "match": true,
+      "archived_normalized_sha256": "94df030702b5bce6711bee9421ead517c9c12fcf6c8672777042b9bba98d6bf9"
+    },
+    {
+      "document": "dort",
+      "section": 50,
+      "title": "第三条 神保守属他的人",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/3",
+      "match": true,
+      "archived_normalized_sha256": "acda2621c9219a0ee74b8ad53b5768aedf79406ce93b715e95133610d4f2f794"
+    },
+    {
+      "document": "dort",
+      "section": 51,
+      "title": "第四条 真信徒也可能犯严重的罪",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/4",
+      "match": true,
+      "archived_normalized_sha256": "87c2a7f8d3dbdf4b25a241729922f607e63b49471f72596bb1c2eb3a0ed8c4cf"
+    },
+    {
+      "document": "dort",
+      "section": 52,
+      "title": "第五条 犯罪导致的一系列后果",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/5",
+      "match": true,
+      "archived_normalized_sha256": "988a749632aac06a357d3a6c0d0d3bf37350d9d043bee03b352d07e77d7f5439"
+    },
+    {
+      "document": "dort",
+      "section": 53,
+      "title": "第六条 神不许可属他的人迷失",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/6",
+      "match": true,
+      "archived_normalized_sha256": "53ad497c088cc11a2385052fe60658c38351bfb56b207bfe5d3af5a54a62da66"
+    },
+    {
+      "document": "dort",
+      "section": 54,
+      "title": "第七条 神会再次更新属他的人，使他们悔改",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/7",
+      "match": true,
+      "archived_normalized_sha256": "7a21da555017ee31986df0a41e569b8ea26f2f77ddad481c80b9d34b70fe099a"
+    },
+    {
+      "document": "dort",
+      "section": 55,
+      "title": "第八条 三一神恩典的保守",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/8",
+      "match": true,
+      "archived_normalized_sha256": "f91039d520cc2ef50228378d89fac131b3638042772bd32fef8a683f973144cf"
+    },
+    {
+      "document": "dort",
+      "section": 56,
+      "title": "第九条 信徒确信蒙保守",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/9",
+      "match": true,
+      "archived_normalized_sha256": "d4f37d878abe3e098314fab7efecb1440014c1e0c3230fbd1846eb1297760bb1"
+    },
+    {
+      "document": "dort",
+      "section": 57,
+      "title": "第十条 此确信的来源",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/10",
+      "match": true,
+      "archived_normalized_sha256": "6c1daadda6ec51ab6994d536cfe0d42160ba935653757db30eb6891edf8436ec"
+    },
+    {
+      "document": "dort",
+      "section": 58,
+      "title": "第十一条 此确信不总能感受到",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/11",
+      "match": true,
+      "archived_normalized_sha256": "d0f2bfcccef72e29faa37bb2bb6141b90a497762dff22b93b95567e474cab94a"
+    },
+    {
+      "document": "dort",
+      "section": 59,
+      "title": "第十二条 此确信是追求圣洁的动力",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/12",
+      "match": true,
+      "archived_normalized_sha256": "513a6a64517b9a9b3c077e05d0efb25197927161ab17e0e61e71026e9fad7e10"
+    },
+    {
+      "document": "dort",
+      "section": 60,
+      "title": "第十三条 此确信不会导致忽视敬虔",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/13",
+      "match": true,
+      "archived_normalized_sha256": "c1579384c7acd48f0ca243f4695955c5d5c2a2dc91057c7f817e03eb83a556e3"
+    },
+    {
+      "document": "dort",
+      "section": 61,
+      "title": "第十四条 神使真信徒持守信仰所用的方法",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/14",
+      "match": true,
+      "archived_normalized_sha256": "6ac7150383ac209ef3c0c78c5d1fb0f0134f9c03a52807069b456c5cd0cb79c8"
+    },
+    {
+      "document": "dort",
+      "section": 62,
+      "title": "第十五条 此项教义为撒但所恨，为教会所爱",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/15",
+      "match": true,
+      "archived_normalized_sha256": "76e4e2477dac828339ff3dbd8b9629d6067f7628de709359c454106781bf153c"
+    },
+    {
+      "document": "dort",
+      "section": 63,
+      "title": "错谬反驳",
+      "source": "https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort/section5/16",
+      "match": true,
+      "archived_normalized_sha256": "00ad1a025b1561db183d63bc718d3fd45072383ba78883e1b972447d64b74333"
+    }
+  ]
+}

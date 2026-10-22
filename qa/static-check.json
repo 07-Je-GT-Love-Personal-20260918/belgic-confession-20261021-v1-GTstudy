@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "original_sections": 232,
+  "commentary_articles": 37,
+  "pages": [
+    {
+      "file": "index.html",
+      "ids": 124,
+      "links": 124,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader.html",
+      "ids": 250,
+      "links": 471,
+      "local_links_ok": true
+    },
+    {
+      "file": "source-report.html",
+      "ids": 0,
+      "links": 235,
+      "local_links_ok": true
+    }
+  ],
+  "result": "PASS"
+}

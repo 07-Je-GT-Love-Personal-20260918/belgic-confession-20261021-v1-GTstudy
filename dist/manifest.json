@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-22",
+  "files": {
+    "app.js": "513bbebced1c494332c9a7b727ac39a2edbca77765765500dece8b5cb4ef3111",
+    "favicon.svg": "05658d497182c59be61e80bec98beb0dc3f4ba03eee20af6ed359cf14a2b7b4d",
+    "index.html": "3737fcd62ff8928782b7e2c7bf1b4c8e23869fb6ba2a5d69e1bd6c251e4979ef",
+    "originals.json": "990a90be6be269ca6d7dd893869e42258c6561b8108e04bfe6effed4d9c3807d",
+    "reader.html": "19896068280141b8fc8dff38a26054a29f9ef07fc3d7bed5ed02172cd11168b9",
+    "source-baseline.json": "4e79ce78097b994b898c350d2c259e2013b10ce054ac27a01d9688bd26182637",
+    "source-recheck.json": "725156b7c52df1a656e13ee3cb00a80bfa5a6722299ef79190ead2b288cf5a80",
+    "source-report.html": "5384912f0e2aaffca001dd075385ee658f2f237e7bb54e7c78c4ac2265a9fc07",
+    "style.css": "42bc3df9b9eb25ae5c399703caa66b2fd178cd7e4970a5c82cc6faa002b2f081"
+  }
+}
