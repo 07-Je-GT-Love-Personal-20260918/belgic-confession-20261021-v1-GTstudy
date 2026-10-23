@@ -1,6 +1,7 @@
 """Build the complete static study edition. Python standard library only."""
 from pathlib import Path
 import json, html, hashlib
+from study_v2 import enhance_page, make_atlas, build_readers, city_data
 
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'dist'
@@ -111,30 +112,14 @@ for i,s in enumerate(overview['sources'],1): body+=f'<article><span>{i:02d}</spa
 body+='</div><details class="extension"><summary>更多研究入口 · 按传统与用途选择</summary><p>下列为继续查考入口，并不表示已逐篇核读或赞同全部文章；教会和神学院资料须按具体作者、文体与证据审查。</p><div class="resource-links">'
 for name,url in [('恩约教会','https://www.ccreformed.org/'),('改革宗初学者','https://www.reformedbeginner.net/'),('CanRC','https://canrc.org/'),('URCNA','https://www.urcna.org/'),('Heritage Reformed','https://heritagereformed.com/'),('PRCA','https://www.prca.org/'),('OPC · 长老会改革宗','https://opc.org/'),('Canadian Reformed Seminary','https://canadianreformedseminary.ca/'),('Westminster Seminary','https://www.wts.edu/'),('CRTS','https://crts.edu/')]: body+=anchor(url,name)
 body+='</div></details></section><footer><div><span class="brandmark">✦</span><b> GTstudy · 比利时信条</b><p>让认信回到圣经，让理解进入生活。</p></div><div><p>belgic-confession-20261021-v1-GTstudy</p><p>v1.0.0 · 2026.10.22 · Asia/Taipei</p><a href="reader.html">六份认信原文书房 ↗</a></div></footer></main><a href="#top" class="backtop" aria-label="回到顶部">↑</a><script type="application/json" id="flashData">'+json.dumps([dict(n=a['n'],title=a['title'],core=a['core'],memory=a['memory']) for a in articles],ensure_ascii=False).replace('</',r'<\/')+'</script></body></html>'
-(OUT/'index.html').write_text(body,encoding='utf8')
+body=enhance_page(body,city_data(overview),main=True)
+assert 'id="liveMap"' in body, 'Modern map panel missing from main page'
+(OUT/'index.html').write_text(body,encoding='utf8',newline='\n')
 
-# All six complete documents are statically present, without remote dependencies.
-reader=head('原文书房 · 六份认信 · GTstudy')+topbar(True)+'''<main id="main" class="reader-main"><div class="reader-intro"><p class="eyebrow">THE CONFESSIONAL LIBRARY</p><h1>原文书房</h1><p>安静地读，准确地记。三份普世信经与三项联合信条，均为指定网站中文译文。</p></div><div class="reader-controls"><label>阅读文本 <select id="docSelect">'''
-for d in originals['documents']: reader+=f'<option value="{d["key"]}">{e(d["title"])}</option>'
-reader+='''</select></label><button type="button" id="readerMask" aria-pressed="false">遮盖正文 · 背诵</button><button type="button" id="readerCopy">复制当前全文</button><button type="button" id="readerSpeak">▷ 朗读当前全文</button><button type="button" id="readerStop">□ 停止</button><button type="button" id="readerPrint">打印干净版</button><span id="readerStatus" role="status"></span></div><p class="reader-version">原文层：不混入本站释义、不自动繁简转换、不静默修订原站文字。遮盖后可点击或用键盘揭开单节。朗读使用设备语音，音色与可用性因设备而异。</p>'''
-for d in originals['documents']:
- reader+=f'<article class="document" id="doc-{d["key"]}" data-doc="{d["key"]}"><div class="document-header"><p class="eyebrow">CCI · BOOK OF PRAISE · 2015</p><h2>{e(d["title"])}</h2><p>{anchor(d["source"],"指定网站目录／原文")}</p></div>'
- if len(d['sections'])>1:
-  reader+='<details class="reader-index"><summary>显示本文详细目录</summary><nav>'
-  for i,s in enumerate(d['sections'],1): reader+=f'<a href="#reader-{d["key"]}-{i}">{e(s["title"])}</a>'
-  reader+='</nav></details>'
- if d['key']=='dort': reader+='<p class="reader-version">版本说明：包括全部59条正面教义和四组驳谬。指定版本未收独立结语；不以其他译本补写。</p>'
- currentgroup=''
- for i,s in enumerate(d['sections'],1):
-  if s.get('group') and s['group']!=currentgroup:
-   currentgroup=s['group'];reader+=f'<h3 class="reader-group">{e(currentgroup)}</h3>'
-  reader+=f'<section class="reader-section" id="reader-{d["key"]}-{i}">'
-  if len(d['sections'])>1: reader+=f'<h3>{e(s["title"])}</h3>'
-  reader+=f'<div class="reader-passage" tabindex="0" role="button" aria-label="{e(s["title"])}，背诵模式下按回车显示或遮盖正文"><div class="original-text" data-original="{d["key"]}-{i}">{s["html"]}</div><span class="mask-prompt" aria-hidden="true">点击或按回车揭开此节</span></div><a class="passage-source" href="{e(s["source"])}" target="_blank" rel="noopener noreferrer">来源 ↗</a></section>'
- reader+='</article>'
-reader+='<footer><p>指定中文译文 ©《中国改革宗敬拜手册》出版委员会，2015。资料来源：ccifellowship.org。</p><p>学习版 v1.0.0 · 2026.10.22 · <a href="index.html#sources">版本与来源说明</a></p></footer></main><script type="application/json" id="originalData">'+json.dumps(originals,ensure_ascii=False).replace('</',r'<\/')+'</script></body></html>'
-(OUT/'reader.html').write_text(reader,encoding='utf8')
+# Independent, complete document pages avoid loading all six texts at once.
+reader_stats=build_readers(ROOT,originals,head,topbar,anchor,city_data(overview))
+(OUT/'atlas.html').write_text(make_atlas(ROOT,head,topbar,overview),encoding='utf8',newline='\n')
 (OUT/'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#204c40"/><text x="32" y="45" text-anchor="middle" fill="#e8dab5" font-size="43">✦</text></svg>',encoding='utf8')
-manifest={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.is_file() and p.suffix in ('.html','.css','.js','.json','.svg') and p.name!='manifest.json'}
-(OUT/'manifest.json').write_text(json.dumps({'version':'1.0.0','date':'2026-10-22','files':manifest},indent=2),encoding='utf8')
+manifest={p.relative_to(OUT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.rglob('*') if p.is_file() and p.suffix in ('.html','.css','.js','.json','.svg') and p.name!='manifest.json'}
+(OUT/'manifest.json').write_text(json.dumps({'version':'2.0.0','date':'2026-10-24','files':manifest,'reader_bytes':reader_stats},indent=2),encoding='utf8',newline='\n')
 print(f'Built {len(articles)} commentary articles; {sum(len(d["sections"]) for d in originals["documents"])} original sections.')

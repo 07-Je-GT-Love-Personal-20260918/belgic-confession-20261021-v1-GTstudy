@@ -1,0 +1,24 @@
+{
+  "title":"认信怎样穿过城市、语言与权力",
+  "scenes":[
+    {"id":"roots","year":"325—381","icon":"cross","title":"先认清：我们敬拜的是谁","city":"nicaea","group":"ancient","question":"为何改革宗先接续古代信经？","history":"尼西亚与君士坦丁堡的认信争论，关乎子与圣灵是否真实为神。16世纪改革宗接续这条大公信仰线，表明改革并不是换一位神，而是让教会的教导与敬拜重新受圣经约束。","culture":"早期争论发生在希腊语与拉丁语等多语言教会中。术语必须足够精确，才能避免同一句话被用来表达相反信仰；翻译因此不只是换字，也是守护意思。","core":"不是新造宗教身份，而是公开说明我们所信的福音。","articles":"8—11、18—19","source":"https://threeforms.org/the-nicene-creed/"},
+    {"id":"tournai","year":"1561—1562","icon":"scroll","title":"把被指控者，变成公开说话的人","city":"tournai","group":"reformed","question":"为什么受逼迫者要写一份完整信条？","history":"德布利在1561年写成信条，随后呈交统治者的认信与请愿说明：改革宗愿意履行合法公民责任，却不能以否认真道交换安全。完整认信让外界能按文本判断所信，而不只按传闻给人贴标签。","culture":"信条起初以法文写成，处在低地南部法语教会的世界中；后来进入荷兰语教会。今天的国界与语言分区不能原样投射回1561年，翻译与教会交往比现代国籍更能解释它的传播。","core":"认信既澄清外界误解，也约束教会自己怎样教导。","articles":"1—11、28、36","source":"https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession"},
+    {"id":"heidelberg","year":"1563","icon":"book","title":"从共同认信，走进每日教导","city":"heidelberg","group":"reformed","question":"为什么有了信条，还需要要理问答？","history":"普法尔茨的领地教会、学校与青年教导需要共同教材。海德堡要理问答把罪苦、救赎与感恩编成可逐步学习的问答，后来以52个主日进入持续的教会教导。","culture":"大学、学校、家庭与讲台形成不同的学习场景。公共告白说明边界，问答训练理解与应用；相同真理需要合宜的教学文体，而不只是重复同样篇幅。","core":"信仰不能只被签署，也要被听懂、记住并活出来。","articles":"22—24、27—35","source":"https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism"},
+    {"id":"antwerp","year":"1566","icon":"press","title":"文字被复制，也被教会共同检验","city":"antwerp","group":"reformed","question":"城市与印刷怎样帮助认信传播？","history":"1566年的安特卫普教会会议修订并接纳信条。此后的教会会议继续处理其接纳，使个人写作逐渐成为教会公开承担的认信。会议的职责是按圣经判断，不是凭投票制造新启示。","culture":"安特卫普的商业与印刷文化，使跨语言文本流动更容易。印刷降低复制成本，却不能自动保证内容正确；教会的教导、翻译与查验，使传播速度服务于共同认信。","core":"传播需要载体，联合需要共同受真道约束。","articles":"3—7、30—32","source":"https://threeforms.org/belgic-confession-introduction/"},
+    {"id":"valenciennes","year":"1567","icon":"flame","title":"地上的判决，没有最后一句话","city":"valenciennes","group":"reformed","question":"殉道背景怎样照亮第36—37条？","history":"德布利于1567年在瓦朗谢讷殉道。请愿未能使他免受迫害，信条却继续流传。承认合法治理与拒绝否认真道同时存在；基督末日审判的盼望，使地上法庭不再拥有最终裁决权。","culture":"在宗教认信与政治忠诚紧密相连的社会里，偏离官方宗教常被视为威胁公共秩序。信条认真面对这种张力，既不把所有抗命神圣化，也不把国家权力绝对化。","core":"信徒在地上尽责，却把最终盼望交给基督。","articles":"13、36—37","source":"https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession"},
+    {"id":"dort","year":"1618—1619","icon":"people","title":"不同文本，共同守护一位救主","city":"dordrecht","group":"reformed","question":"多特为什么不能取代另外两份信条？","history":"多特大会审订并接纳比利时信条，也回应有关救恩的争论。三份文件由不同处境形成：全面告白、牧养教导、争议澄清，共同服务教会的教导与职分认信。","culture":"跨地区教会会议使当地争论接受更广泛的查验。神学、教会秩序与公共处境彼此交织；准确阅读必须看清争论的具体问题，不能把改革宗缩成后来的五个英语字母。","core":"三份文件的差别，在于服务问题的角度，不在于福音有三套。","articles":"16、20—24、27—32","source":"https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort"}
+  ],
+  "culture":[
+    {"icon":"language","title":"语言：意义怎样跨越边界","cause":"法语写作进入荷兰语教会，认信需要被忠实翻译。","mechanism":"固定术语、公共诵读、持续教导，使同一真理能在不同语言中被共同承认。","reading":"读第8—11、18—19条时，注意本质、位格、神性与人性；不要只记汉字，要能说明区别。","memory":"译词可以不同，所指的真理须一致。"},
+    {"icon":"press","title":"印刷：速度为何还不等于可靠","cause":"城市中的印刷与文本交换，让认信不再只能靠口耳相传。","mechanism":"可重复的文本有利于比较、教导与查验；公开标准也让教师接受监督。","reading":"读第3—7与31—32条，连起圣言的权威、教会的服事和对良心的界限。","memory":"文本能复制，权威不能由机器制造。"},
+    {"icon":"people","title":"教会：共同体怎样维系身份","cause":"流亡、逼迫与跨城交往，使归属不能只依靠同一块土地。","mechanism":"圣道、圣礼、职分与彼此服事，使教会在变动中保有可辨认的生活。","reading":"第27条的大公性必须接到第28条的具体归属，不能以普世身份逃避地方责任。","memory":"共同信仰，需要共同生活。"},
+    {"icon":"shield","title":"权力：顺服为何必须有界限","cause":"在认信与政治忠诚交织的处境里，信徒必须说明为何守法却不肯否认真道。","mechanism":"第36条承认公共治理，第37条把一切权柄置于基督终极审判之下；版本差异需另作交代。","reading":"把罗13、提前2、徒5:29与启13同读，不用一节经文取消其他经文。","memory":"地上有责任，良心有归属。"}
+  ],
+  "sources":[
+    {"title":"URCNA · 比利时信条历史介绍","url":"https://threeforms.org/belgic-confession-introduction/"},
+    {"title":"CCI · 比利时信条与历史导言","url":"https://ccifellowship.org/books/book-of-praise/confessions/the-belgic-confession"},
+    {"title":"CCI · 海德堡要理问答历史导言","url":"https://ccifellowship.org/books/book-of-praise/confessions/heidelberg-catechism"},
+    {"title":"CCI · 多特信经历史导言","url":"https://ccifellowship.org/books/book-of-praise/confessions/canons-of-dort"},
+    {"title":"UNESCO · 安特卫普Plantin-Moretus印刷遗产","url":"https://whc.unesco.org/en/list/1185/"}
+  ]
+}

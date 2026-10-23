@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "method": "Actual Edge browser through CUA; local preview",
+  "passed": [
+    "Esri street map tiles actually loaded; visible attribution",
+    "Six historical scenes and city selection linkage",
+    "375px text selection opens eight-style toolbar",
+    "Gold highlight wraps text without changing paragraph text",
+    "Highlight persists after reload",
+    "Saved highlight return opens hidden historical scene",
+    "Delete test highlight",
+    "Legacy reader.html?doc=belgic redirects to complete 37-section reader",
+    "Document selector opens Nicene reader; memorization masking works",
+    "320px atlas and main: no document horizontal overflow",
+    "768px main: no horizontal overflow",
+    "1440px atlas: no horizontal overflow",
+    "Quick navigation expands; bottom gap measured zero after smooth scroll",
+    "No browser console errors observed during map and theme test"
+  ],
+  "limitations": [
+    "No guarantee of map provider reachability in every country/network",
+    "No synthetic offline network interception performed",
+    "No fixed FPS promise; performance improvements verified structurally and by interaction"
+  ],
+  "reader_entry_bytes": 13652,
+  "previous_reader_entry_bytes": 1081159
+}

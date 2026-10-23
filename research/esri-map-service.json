@@ -1,0 +1,6 @@
+{
+  "name": "World Street Map",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer?f=pjson",
+  "copyrightText": "Sources: Esri, HERE, Garmin, USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, Esri China (Hong Kong), Esri Korea, Esri (Thailand), NGCC, (c) OpenStreetMap contributors, and the GIS User Community",
+  "checked": "2026-10-23"
+}

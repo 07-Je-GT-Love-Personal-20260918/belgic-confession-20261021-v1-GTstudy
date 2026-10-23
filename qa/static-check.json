@@ -1,18 +1,54 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "original_sections": 232,
   "commentary_articles": 37,
   "pages": [
     {
+      "file": "atlas.html",
+      "ids": 54,
+      "links": 24,
+      "local_links_ok": true
+    },
+    {
       "file": "index.html",
-      "ids": 124,
-      "links": 124,
+      "ids": 156,
+      "links": 131,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader-athanasian.html",
+      "ids": 35,
+      "links": 9,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader-belgic.html",
+      "ids": 71,
+      "links": 82,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader-dort.html",
+      "ids": 97,
+      "links": 134,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader-heidelberg.html",
+      "ids": 163,
+      "links": 266,
+      "local_links_ok": true
+    },
+    {
+      "file": "reader-nicene.html",
+      "ids": 35,
+      "links": 9,
       "local_links_ok": true
     },
     {
       "file": "reader.html",
-      "ids": 250,
-      "links": 471,
+      "ids": 35,
+      "links": 9,
       "local_links_ok": true
     },
     {

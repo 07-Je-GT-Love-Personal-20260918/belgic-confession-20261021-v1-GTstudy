@@ -1,9 +1,9 @@
 {
   "theme": "比利时信条",
   "edition": "belgic-confession-20261021-v1-GTstudy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "created": "2026-10-21",
-  "released": "2026-10-22",
+  "released": "2026-10-24",
   "timezone": "Asia/Taipei",
   "repository": "https://github.com/07-Je-GT-Love-Personal-20260918/belgic-confession-20261021-v1-GTstudy",
   "githubPagesUrl": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
@@ -19,7 +19,7 @@
     "surge": "official CLI, existing authenticated account",
     "vercel": "official CLI, existing authenticated account; Git provider connection attempted but failed"
   },
-  "restoreTag": "v1.0.0-20261022",
+  "restoreTag": "v2.0.0-20261024",
   "sourceBaseline": {
     "date": "2026-10-21",
     "pages": 155,
@@ -30,13 +30,16 @@
   "verificationFiles": [
     "qa/static-check.json",
     "qa/browser-check.json",
-    "qa/public-check.json"
+    "qa/public-check.json",
+    "qa/v2-browser-check.json"
   ],
   "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-hm6pzxav2.vercel.app",
-  "verifiedPublicResources": {
-    "passed": 27,
-    "total": 27,
-    "date": "2026-10-22"
-  },
-  "publishedSiteCommit": "5382f5f4ead1fc0bd7d484a71d73d16cb9c2868b"
+  "history": [
+    {
+      "version": "1.0.0",
+      "released": "2026-10-22",
+      "restoreTag": "v1.0.0-20261022",
+      "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-hm6pzxav2.vercel.app"
+    }
+  ]
 }
