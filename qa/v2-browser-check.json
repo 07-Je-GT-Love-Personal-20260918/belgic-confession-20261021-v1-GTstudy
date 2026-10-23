@@ -15,13 +15,19 @@
     "768px main: no horizontal overflow",
     "1440px atlas: no horizontal overflow",
     "Quick navigation expands; bottom gap measured zero after smooth scroll",
-    "No browser console errors observed during map and theme test"
+    "No browser console errors observed during map and theme test",
+    "Esri satellite imagery actually loaded: 12 visible tiles",
+    "OpenStreetMap backup actually loaded: 12 visible tiles",
+    "Pause map removes interactive map",
+    "Versioned CSS confirmed content-visibility visible, preserving actual article height",
+    "Final public Vercel atlas visibly shows v2.0.0 and 2026.10.24"
   ],
   "limitations": [
     "No guarantee of map provider reachability in every country/network",
     "No synthetic offline network interception performed",
     "No fixed FPS promise; performance improvements verified structurally and by interaction"
   ],
-  "reader_entry_bytes": 13652,
-  "previous_reader_entry_bytes": 1081159
+  "reader_entry_bytes": 13692,
+  "previous_reader_entry_bytes": 1081159,
+  "public_preview": "qa/v2-public-preview.png"
 }

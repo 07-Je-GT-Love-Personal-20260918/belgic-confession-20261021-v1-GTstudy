@@ -9,7 +9,7 @@
   "githubPagesUrl": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
   "surgeUrl": "https://belgic-confession-20261021-v1-gtstudy.surge.sh/",
   "vercelUrl": "https://belgic-confession-20261021-v1-gtstudy.vercel.app/",
-  "githubPagesWorkflow": 39702306823,
+  "githubPagesWorkflow": 40040242991,
   "vercelProjectId": "prj_PDnsL7NU4BlT3JgmUL9q7XFlYurC",
   "vercelTeam": "abners-projects-6f97a189",
   "vercelProjectDomainVerified": true,
@@ -33,7 +33,7 @@
     "qa/public-check.json",
     "qa/v2-browser-check.json"
   ],
-  "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-hm6pzxav2.vercel.app",
+  "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-b61sdjbbo.vercel.app",
   "history": [
     {
       "version": "1.0.0",
@@ -41,5 +41,11 @@
       "restoreTag": "v1.0.0-20261022",
       "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-hm6pzxav2.vercel.app"
     }
-  ]
+  ],
+  "publishedSiteCommit": "2e220e1c5fec0cd9a03145815c2b2ea503ec41eb",
+  "verifiedPublicResources": {
+    "passed": 60,
+    "total": 60,
+    "date": "2026-10-24"
+  }
 }
