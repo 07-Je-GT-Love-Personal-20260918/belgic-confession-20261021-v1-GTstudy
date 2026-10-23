@@ -3,18 +3,18 @@
   "date": "2026-10-24",
   "files": {
     "app.js": "02e0f5b9b8219d156500dd3df81087563ee4935dce142b143639de2f636761d5",
-    "atlas.html": "19409b03cbbd00e52ee02bf3687c2445f6453d455adf6129acb2bc4a99f7d921",
+    "atlas.html": "db02f3bd39762e727a48af09ba3a8325ae2af6d4d4ec7067f25b8ccbdac6ca07",
     "enhance.css": "2687afe9b0bc52f6650cdaeb4a5fcd6dda76efb554ae2a9ce3c208dc1d340a6e",
     "enhance.js": "216b80e545cd7b1c40e5ea8864ca9558cd82111986c6020326df74475c4926f1",
     "favicon.svg": "05658d497182c59be61e80bec98beb0dc3f4ba03eee20af6ed359cf14a2b7b4d",
-    "index.html": "e1374aedf4b95b7eba9e95f97988ed4667dbc6624bd9505cfc1b485ea6b85277",
+    "index.html": "7f7a001a638d583c3429a6d15fd1757d62a0b4faa44959ac2f2496ff6ce4f9fc",
     "originals.json": "66d81a14bba1e1b0735dd77b2b990eafb59715c8800be6cd6b6376758be3941d",
-    "reader-athanasian.html": "f60b3ca67f2f4caebf2557f869f343316fa514bc38684b0a045b79593843e2da",
-    "reader-belgic.html": "f161a1f5bc4ddb63bc856b157a9d2409ed5026f86ab7984adf2c06375b9d26ad",
-    "reader-dort.html": "f37d45a589c876d7790c94cf1cacc5955c8ba8e7b643b6d06ebd682fd47beaa2",
-    "reader-heidelberg.html": "26b0fcb45cca43311bf9e977bc6c3acac94054fb75e6e23a367486a818ee7d70",
-    "reader-nicene.html": "447b1589b335f462c29cea099974440f352d2f3502fb42337977fc7ce1d2da38",
-    "reader.html": "5fc3d98313188c5ffee9bb502d9aef23a9dc2fbae213c3c45a68a7718b8ecfd9",
+    "reader-athanasian.html": "f9ecc5c184a080f02430dc1c404f2009be05f930e49ec55d80c2157e1a6211e5",
+    "reader-belgic.html": "89cc0a07538c5025c5d476a87c58522803ec61667f6abd3c5660628a2ca3ce3b",
+    "reader-dort.html": "4db2122deb2829c8926a136466434a8719b0d46bdb85fb1430e66872b831ee3a",
+    "reader-heidelberg.html": "943386e3db0d60eb31031358bc07da94f9c85baffb1f7199d867d1346b21d814",
+    "reader-nicene.html": "4d109462aec6700ae7a87ed60b9e6bc53d4d33684b6393e53cd09abb944e323c",
+    "reader.html": "d6ddb97699dd7881595169e513d41376bbf492a7d75e0ea810d741c42d246005",
     "reader.js": "71d7942ae63500edce081c39d57a72f1bacf3d11dcc6e3116e0c7e51232e5d5f",
     "source-baseline.json": "4e79ce78097b994b898c350d2c259e2013b10ce054ac27a01d9688bd26182637",
     "source-recheck.json": "725156b7c52df1a656e13ee3cb00a80bfa5a6722299ef79190ead2b288cf5a80",
@@ -24,11 +24,11 @@
     "vendor/leaflet/leaflet.js": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
   },
   "reader_bytes": {
-    "apostles": 13652,
-    "nicene": 14591,
-    "athanasian": 18554,
-    "belgic": 146763,
-    "heidelberg": 250936,
-    "dort": 178494
+    "apostles": 13692,
+    "nicene": 14631,
+    "athanasian": 18594,
+    "belgic": 146803,
+    "heidelberg": 250976,
+    "dort": 178534
   }
 }

@@ -34,7 +34,7 @@ def tools():
  nav+=f'''<aside class="marks-drawer" id="marksDrawer" role="dialog" aria-modal="true" aria-labelledby="marksTitle" hidden><div class="drawer-head"><div><p class="eyebrow">MY READING MARKS</p><h2 id="marksTitle">重点笔记</h2></div><button type="button" id="closeMarks" aria-label="关闭重点笔记">{icon('close')}</button></div><p class="muted">选中同一段中的文字，可加粗、着色、加底纹或画线。标记保存在当前浏览器，不改动认信原文。</p><div class="mark-legend"><span class="style-gold">核心</span><span class="style-green">应许</span><span class="style-underline">逻辑</span><span class="style-dash">难点</span></div><div class="toolbar"><button type="button" id="exportMarks">导出重点</button><label class="button import-label">导入重点<input type="file" id="importMarks" accept=".json,application/json"></label><a class="button" href="index.html#memory">笔记与学习进度</a></div><div id="marksList"></div></aside><button type="button" class="marks-backdrop" id="marksBackdrop" aria-label="关闭重点笔记" hidden></button><div class="study-toast" id="studyToast" role="status" hidden></div>'''
  return nav
 def enhance_page(page,cities,main=False):
- page=page.replace('</head>','<link rel="stylesheet" href="enhance.css"><script src="enhance.js" defer></script></head>')
+ page=page.replace('</head>','<link rel="stylesheet" href="enhance.css?v=2.0.0"><script src="enhance.js?v=2.0.0" defer></script></head>')
  page=page.replace('class="backtop"','class="backtop legacy-backtop"')
  page=page.replace('v1.0.0','v2.0.0').replace('2026.10.22','2026.10.24')
  if main:
@@ -95,7 +95,7 @@ def build_readers(root,originals,head,topbar,anchor,cities):
    p+=f'<section class="reader-section" id="reader-{key}-{i}">'+(f'<h3>{E(s["title"])}</h3>' if len(doc['sections'])>1 else '')+f'<div class="reader-passage" tabindex="0" role="button" aria-label="{E(s["title"])}，背诵模式下按回车显示或遮盖正文"><div class="original-text" data-original="{key}-{i}">{s["html"]}</div><span class="mask-prompt" aria-hidden="true">点击或按回车揭开此节</span></div><a class="passage-source" href="{E(s["source"])}" target="_blank" rel="noopener noreferrer">来源 ↗</a></section>'
   p+='</article><footer><p>指定中文译文 ©《中国改革宗敬拜手册》出版委员会，2015。资料来源：ccifellowship.org。</p><p>v2.0.0 · 2026.10.24 · <a href="index.html#sources">版本与来源说明</a></p></footer></main>'
   payload={'key':key,'title':doc['title'],'sections':[{'title':s['title'],'text':s['text']} for s in doc['sections']]}
-  p+='<script type="application/json" id="readerData">'+json.dumps(payload,ensure_ascii=False).replace('</',r'<\/')+'</script><script src="reader.js" defer></script></body></html>'
+  p+='<script type="application/json" id="readerData">'+json.dumps(payload,ensure_ascii=False).replace('</',r'<\/')+'</script><script src="reader.js?v=2.0.0" defer></script></body></html>'
   p=enhance_page(p,cities)
   filename='reader.html' if key=='apostles' else 'reader-'+key+'.html'
   (out/filename).write_text(p,encoding='utf8',newline='\n');text_stats[key]=len(p.encode())
