@@ -16,6 +16,8 @@
 - 恢复：`git switch -c restore-v2 v2.0.0-20261024`；v3 发布标签 `v3.0.0-20261114`。`python build.py` 构建；`python scripts/check_static.py` 检查原文和链接。离线包见 Releases。
 - `qa/v3-browser.json` 记录多尺寸和断网交互检查；`qa/v3-creed-source-check.json` 记录三经正文复核；`qa/v3-source-check.json` 记录全部155页、232个原文单元在线复核一致（忽略版面空白）。历史资料参照 URCNA 与 CCI 指定文本，未宣称已遍读 CCI 全站。
 
+公开验收：三个公开站点共 75 项文件与入口全部核对通过，见 `qa/v3-public-check.json`。
+
 ---
 
 ## 历版文档（v2 与 v1）

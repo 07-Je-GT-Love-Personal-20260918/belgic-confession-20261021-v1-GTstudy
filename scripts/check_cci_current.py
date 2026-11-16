@@ -67,4 +67,3 @@ for d in data['documents']:
 out=dict(meta=dict(date='2026-11-14',checked_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),method='Live HTTP GET once per unique source in this execution; no prior disk cache; concurrency 5; original extraction selectors; paragraph blocks p/h2/h3/h4/h5/li, nested p/li excluded; only Unicode whitespace ignored',input='User-supplied PDF; current CCI translation checked against source.'),summary=dict(total_sections=len(checks),matched=sum(r['match'] for r in checks),differences=sum(not r['match'] for r in checks),unique_sources=len(urls),sources_ok=sum(i['status']==200 for i,t in cache.values())),sources=[dict(url=u,**i) for u,(i,t) in cache.items()],sections=checks)
 (base/'qa'/('v3-creed-source-check.json' if '--creeds' in sys.argv else 'v3-source-check.json')).write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(out['summary']),flush=True)
-

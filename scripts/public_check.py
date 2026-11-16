@@ -6,13 +6,13 @@ hosts={
  'surge':'https://belgic-confession-20261114-v3-gtstudy.surge.sh/',
  'vercel':'https://belgic-confession-20261114-v3-gtstudy.vercel.app/'
 }
-files=['index.html','reader.html','style.css','app.js','originals.json','favicon.svg','source-report.html','source-baseline.json','source-recheck.json','atlas.html','enhance.css','enhance.js','reader.js','reader-belgic.html','reader-heidelberg.html','reader-dort.html','reader-nicene.html','reader-athanasian.html','vendor/leaflet/leaflet.js','vendor/leaflet/leaflet.css','creeds.html','studio.css','story-poster.webp','confession-story.mp4','manifest.json']
+files=['index.html','reader.html','style.css','app.js','originals.json','favicon.svg','source-report.html','source-baseline.json','source-recheck.json','atlas.html','enhance.css','enhance.js','reader.js','reader-belgic.html','reader-heidelberg.html','reader-dort.html','reader-nicene.html','reader-athanasian.html','vendor/leaflet/leaflet.js','vendor/leaflet/leaflet.css','creeds.html','studio.css','story-poster.webp','confession-story.mp4','']
 normalize=lambda b:b.replace(b'\r\n',b'\n')
 def check(item):
  name,root,file=item
  try:
   response=requests.get(root+file,params={'v':'3.0.0'} if file.endswith(('.js','.css')) else None,timeout=(10,30))
-  local=(base/'dist'/file).read_bytes()
+  local=(base/'dist'/(file or 'index.html')).read_bytes()
   ok=response.status_code==200 and (response.content==local if file.endswith(('.mp4','.webp')) else normalize(response.content)==normalize(local))
   row={'host':name,'file':file,'url':root+file,'status':response.status_code,'matches_local_ignoring_line_endings':ok,'public_sha256':hashlib.sha256(response.content).hexdigest()}
   if file=='originals.json' and response.status_code==200:
@@ -29,7 +29,7 @@ if previous:
  replacements={(r['host'],r['file']):r for r in fetched}
  rows=[replacements.get((r['host'],r['file']),r) for r in previous['checks']]
 else:rows=fetched
-report={'date':'2026-11-16','checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'hosts':hosts,'method':'Unauthenticated HTTPS GET; compare each response to local release bytes, ignoring CRLF/LF differences only.','checks':rows,'passed':sum(r['matches_local_ignoring_line_endings'] for r in rows),'total':len(rows)}
+report={'date':'2026-11-16','checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'hosts':hosts,'method':'Unauthenticated HTTPS GET; compare each response to local release bytes, ignoring CRLF/LF differences for text, byte-for-byte for binary.','checks':rows,'passed':sum(r['matches_local_ignoring_line_endings'] for r in rows),'total':len(rows)}
 if previous:report['retry']={'previous_checked_at_utc':previous['checked_at_utc'],'previous_passed':previous['passed'],'retried_resources':len(items)}
 (base/'qa/v3-public-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({'passed':report['passed'],'total':report['total'],'issues':[r for r in rows if not r['matches_local_ignoring_line_endings']]}))

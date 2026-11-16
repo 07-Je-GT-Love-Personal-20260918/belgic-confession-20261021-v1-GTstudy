@@ -1,0 +1,617 @@
+{
+  "date": "2026-11-16",
+  "checked_at_utc": "2026-11-16T00:16:18.910335+00:00",
+  "hosts": {
+    "github": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
+    "surge": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/",
+    "vercel": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/"
+  },
+  "method": "Unauthenticated HTTPS GET; compare each response to local release bytes, ignoring CRLF/LF differences for text, byte-for-byte for binary.",
+  "checks": [
+    {
+      "host": "github",
+      "file": "index.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/index.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    },
+    {
+      "host": "github",
+      "file": "reader.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bf23cdf92bca1c8140bf6e1f397b59c700261cd8696ebf280f3b1d984a17ffe1"
+    },
+    {
+      "host": "github",
+      "file": "style.css",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/style.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "42bc3df9b9eb25ae5c399703caa66b2fd178cd7e4970a5c82cc6faa002b2f081"
+    },
+    {
+      "host": "github",
+      "file": "app.js",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/app.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "77602d0abbd782c25ff8fd0fece527a986d8a0c9ac9d109e5fcaaee3c765291d"
+    },
+    {
+      "host": "github",
+      "file": "originals.json",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/originals.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "772503daf077b43f5eb46ae03678f288014c7d31ec3d97e78017501b1a31e5c6",
+      "original_sections": 232
+    },
+    {
+      "host": "github",
+      "file": "favicon.svg",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/favicon.svg",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "05658d497182c59be61e80bec98beb0dc3f4ba03eee20af6ed359cf14a2b7b4d"
+    },
+    {
+      "host": "github",
+      "file": "source-report.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/source-report.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5384912f0e2aaffca001dd075385ee658f2f237e7bb54e7c78c4ac2265a9fc07"
+    },
+    {
+      "host": "github",
+      "file": "source-baseline.json",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/source-baseline.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "b149878c0ea1da3fd5a29f3d0d9856531a9489646d1cad02cc3c28d44650aa2e"
+    },
+    {
+      "host": "github",
+      "file": "source-recheck.json",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/source-recheck.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "9463f9158b803c9226f61937fcbba70b4d619a2d96eb0744a72f24fe5a81c750"
+    },
+    {
+      "host": "github",
+      "file": "atlas.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/atlas.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e3822953a6e11d4fa91f614a21da3335e3c3644189c9956c03655d699a40bb8b"
+    },
+    {
+      "host": "github",
+      "file": "enhance.css",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/enhance.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "597c0e6875a988b6ac6dd1e2fbe507409c2db794901c3ca8095d7de5121e546f"
+    },
+    {
+      "host": "github",
+      "file": "enhance.js",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/enhance.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ab7ca699700702e5fcf687206330d0110dd34533fbe46e12b1904be37e105e1c"
+    },
+    {
+      "host": "github",
+      "file": "reader.js",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "71d7942ae63500edce081c39d57a72f1bacf3d11dcc6e3116e0c7e51232e5d5f"
+    },
+    {
+      "host": "github",
+      "file": "reader-belgic.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader-belgic.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bdca2e4aa95f23f24b038dbf25a20057f9a3ba8439ce725e28a07d8eeecf45ef"
+    },
+    {
+      "host": "github",
+      "file": "reader-heidelberg.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader-heidelberg.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5533a0a5f8f0f36fd0b07b365cd729850bc1d9f61b3b167088bdca75e97419c7"
+    },
+    {
+      "host": "github",
+      "file": "reader-dort.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader-dort.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "84419e3e2259ae4c8c5c82bf7fd05ef09dc9004526a62e543668f64caafee485"
+    },
+    {
+      "host": "github",
+      "file": "reader-nicene.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader-nicene.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8a8b32720dfe94c47a10eb4e339c84efdb65ebc8c232457282e7db001044e1d6"
+    },
+    {
+      "host": "github",
+      "file": "reader-athanasian.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/reader-athanasian.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ff03c925126a8a03c6cffa7a15b1aec6e20aac54b1ecc3be52d1f1c39fbd7c0d"
+    },
+    {
+      "host": "github",
+      "file": "vendor/leaflet/leaflet.js",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/vendor/leaflet/leaflet.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    {
+      "host": "github",
+      "file": "vendor/leaflet/leaflet.css",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/vendor/leaflet/leaflet.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "337bfca5cabd03b39815b2700febe2b3b7edf55921c59cd49f88ecb328212303"
+    },
+    {
+      "host": "github",
+      "file": "creeds.html",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/creeds.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8acb1546e6d6ba46a4d4ca1ca0d123829b669a207e97cace73ceaf7f30452107"
+    },
+    {
+      "host": "github",
+      "file": "studio.css",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/studio.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e2e152ac2b47fe7cab34210fdfe48e20b48ed6d84e627432d6079253ae8e580e"
+    },
+    {
+      "host": "github",
+      "file": "story-poster.webp",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/story-poster.webp",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "b1bb703658c187eb1d725b9ef13e89818ce21125c8cf9b02f3390a94e4aa6a44"
+    },
+    {
+      "host": "github",
+      "file": "confession-story.mp4",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/confession-story.mp4",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "881a34ec129c1cafa13a8df55caf1d5e54b7c34fba748d763742685e3f128f60"
+    },
+    {
+      "host": "github",
+      "file": "",
+      "url": "https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    },
+    {
+      "host": "surge",
+      "file": "index.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/index.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    },
+    {
+      "host": "surge",
+      "file": "reader.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bf23cdf92bca1c8140bf6e1f397b59c700261cd8696ebf280f3b1d984a17ffe1"
+    },
+    {
+      "host": "surge",
+      "file": "style.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/style.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "42bc3df9b9eb25ae5c399703caa66b2fd178cd7e4970a5c82cc6faa002b2f081"
+    },
+    {
+      "host": "surge",
+      "file": "app.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/app.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "77602d0abbd782c25ff8fd0fece527a986d8a0c9ac9d109e5fcaaee3c765291d"
+    },
+    {
+      "host": "surge",
+      "file": "originals.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/originals.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "66d81a14bba1e1b0735dd77b2b990eafb59715c8800be6cd6b6376758be3941d",
+      "original_sections": 232
+    },
+    {
+      "host": "surge",
+      "file": "favicon.svg",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/favicon.svg",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "05658d497182c59be61e80bec98beb0dc3f4ba03eee20af6ed359cf14a2b7b4d"
+    },
+    {
+      "host": "surge",
+      "file": "source-report.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/source-report.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5384912f0e2aaffca001dd075385ee658f2f237e7bb54e7c78c4ac2265a9fc07"
+    },
+    {
+      "host": "surge",
+      "file": "source-baseline.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/source-baseline.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "4e79ce78097b994b898c350d2c259e2013b10ce054ac27a01d9688bd26182637"
+    },
+    {
+      "host": "surge",
+      "file": "source-recheck.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/source-recheck.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "725156b7c52df1a656e13ee3cb00a80bfa5a6722299ef79190ead2b288cf5a80"
+    },
+    {
+      "host": "surge",
+      "file": "atlas.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/atlas.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e3822953a6e11d4fa91f614a21da3335e3c3644189c9956c03655d699a40bb8b"
+    },
+    {
+      "host": "surge",
+      "file": "enhance.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/enhance.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "2687afe9b0bc52f6650cdaeb4a5fcd6dda76efb554ae2a9ce3c208dc1d340a6e"
+    },
+    {
+      "host": "surge",
+      "file": "enhance.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/enhance.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ab7ca699700702e5fcf687206330d0110dd34533fbe46e12b1904be37e105e1c"
+    },
+    {
+      "host": "surge",
+      "file": "reader.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "71d7942ae63500edce081c39d57a72f1bacf3d11dcc6e3116e0c7e51232e5d5f"
+    },
+    {
+      "host": "surge",
+      "file": "reader-belgic.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader-belgic.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bdca2e4aa95f23f24b038dbf25a20057f9a3ba8439ce725e28a07d8eeecf45ef"
+    },
+    {
+      "host": "surge",
+      "file": "reader-heidelberg.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader-heidelberg.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5533a0a5f8f0f36fd0b07b365cd729850bc1d9f61b3b167088bdca75e97419c7"
+    },
+    {
+      "host": "surge",
+      "file": "reader-dort.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader-dort.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "84419e3e2259ae4c8c5c82bf7fd05ef09dc9004526a62e543668f64caafee485"
+    },
+    {
+      "host": "surge",
+      "file": "reader-nicene.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader-nicene.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8a8b32720dfe94c47a10eb4e339c84efdb65ebc8c232457282e7db001044e1d6"
+    },
+    {
+      "host": "surge",
+      "file": "reader-athanasian.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/reader-athanasian.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ff03c925126a8a03c6cffa7a15b1aec6e20aac54b1ecc3be52d1f1c39fbd7c0d"
+    },
+    {
+      "host": "surge",
+      "file": "vendor/leaflet/leaflet.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/vendor/leaflet/leaflet.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    {
+      "host": "surge",
+      "file": "vendor/leaflet/leaflet.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/vendor/leaflet/leaflet.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    {
+      "host": "surge",
+      "file": "creeds.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/creeds.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8acb1546e6d6ba46a4d4ca1ca0d123829b669a207e97cace73ceaf7f30452107"
+    },
+    {
+      "host": "surge",
+      "file": "studio.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/studio.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e2e152ac2b47fe7cab34210fdfe48e20b48ed6d84e627432d6079253ae8e580e"
+    },
+    {
+      "host": "surge",
+      "file": "story-poster.webp",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/story-poster.webp",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "b1bb703658c187eb1d725b9ef13e89818ce21125c8cf9b02f3390a94e4aa6a44"
+    },
+    {
+      "host": "surge",
+      "file": "confession-story.mp4",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/confession-story.mp4",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "881a34ec129c1cafa13a8df55caf1d5e54b7c34fba748d763742685e3f128f60"
+    },
+    {
+      "host": "surge",
+      "file": "",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.surge.sh/",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    },
+    {
+      "host": "vercel",
+      "file": "index.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/index.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    },
+    {
+      "host": "vercel",
+      "file": "reader.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bf23cdf92bca1c8140bf6e1f397b59c700261cd8696ebf280f3b1d984a17ffe1"
+    },
+    {
+      "host": "vercel",
+      "file": "style.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/style.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "42bc3df9b9eb25ae5c399703caa66b2fd178cd7e4970a5c82cc6faa002b2f081"
+    },
+    {
+      "host": "vercel",
+      "file": "app.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/app.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "77602d0abbd782c25ff8fd0fece527a986d8a0c9ac9d109e5fcaaee3c765291d"
+    },
+    {
+      "host": "vercel",
+      "file": "originals.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/originals.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "66d81a14bba1e1b0735dd77b2b990eafb59715c8800be6cd6b6376758be3941d",
+      "original_sections": 232
+    },
+    {
+      "host": "vercel",
+      "file": "favicon.svg",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/favicon.svg",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "05658d497182c59be61e80bec98beb0dc3f4ba03eee20af6ed359cf14a2b7b4d"
+    },
+    {
+      "host": "vercel",
+      "file": "source-report.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/source-report.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5384912f0e2aaffca001dd075385ee658f2f237e7bb54e7c78c4ac2265a9fc07"
+    },
+    {
+      "host": "vercel",
+      "file": "source-baseline.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/source-baseline.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "4e79ce78097b994b898c350d2c259e2013b10ce054ac27a01d9688bd26182637"
+    },
+    {
+      "host": "vercel",
+      "file": "source-recheck.json",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/source-recheck.json",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "725156b7c52df1a656e13ee3cb00a80bfa5a6722299ef79190ead2b288cf5a80"
+    },
+    {
+      "host": "vercel",
+      "file": "atlas.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/atlas.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e3822953a6e11d4fa91f614a21da3335e3c3644189c9956c03655d699a40bb8b"
+    },
+    {
+      "host": "vercel",
+      "file": "enhance.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/enhance.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "2687afe9b0bc52f6650cdaeb4a5fcd6dda76efb554ae2a9ce3c208dc1d340a6e"
+    },
+    {
+      "host": "vercel",
+      "file": "enhance.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/enhance.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ab7ca699700702e5fcf687206330d0110dd34533fbe46e12b1904be37e105e1c"
+    },
+    {
+      "host": "vercel",
+      "file": "reader.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "71d7942ae63500edce081c39d57a72f1bacf3d11dcc6e3116e0c7e51232e5d5f"
+    },
+    {
+      "host": "vercel",
+      "file": "reader-belgic.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader-belgic.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "bdca2e4aa95f23f24b038dbf25a20057f9a3ba8439ce725e28a07d8eeecf45ef"
+    },
+    {
+      "host": "vercel",
+      "file": "reader-heidelberg.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader-heidelberg.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "5533a0a5f8f0f36fd0b07b365cd729850bc1d9f61b3b167088bdca75e97419c7"
+    },
+    {
+      "host": "vercel",
+      "file": "reader-dort.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader-dort.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "84419e3e2259ae4c8c5c82bf7fd05ef09dc9004526a62e543668f64caafee485"
+    },
+    {
+      "host": "vercel",
+      "file": "reader-nicene.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader-nicene.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8a8b32720dfe94c47a10eb4e339c84efdb65ebc8c232457282e7db001044e1d6"
+    },
+    {
+      "host": "vercel",
+      "file": "reader-athanasian.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/reader-athanasian.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "ff03c925126a8a03c6cffa7a15b1aec6e20aac54b1ecc3be52d1f1c39fbd7c0d"
+    },
+    {
+      "host": "vercel",
+      "file": "vendor/leaflet/leaflet.js",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/vendor/leaflet/leaflet.js",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    {
+      "host": "vercel",
+      "file": "vendor/leaflet/leaflet.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/vendor/leaflet/leaflet.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    {
+      "host": "vercel",
+      "file": "creeds.html",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/creeds.html",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "8acb1546e6d6ba46a4d4ca1ca0d123829b669a207e97cace73ceaf7f30452107"
+    },
+    {
+      "host": "vercel",
+      "file": "studio.css",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/studio.css",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "e2e152ac2b47fe7cab34210fdfe48e20b48ed6d84e627432d6079253ae8e580e"
+    },
+    {
+      "host": "vercel",
+      "file": "story-poster.webp",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/story-poster.webp",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "b1bb703658c187eb1d725b9ef13e89818ce21125c8cf9b02f3390a94e4aa6a44"
+    },
+    {
+      "host": "vercel",
+      "file": "confession-story.mp4",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/confession-story.mp4",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "881a34ec129c1cafa13a8df55caf1d5e54b7c34fba748d763742685e3f128f60"
+    },
+    {
+      "host": "vercel",
+      "file": "",
+      "url": "https://belgic-confession-20261114-v3-gtstudy.vercel.app/",
+      "status": 200,
+      "matches_local_ignoring_line_endings": true,
+      "public_sha256": "0c2dcfae3b03fe08564a8b53668ccfc062b92fc9fe120f7e8c3da0bf66746b79"
+    }
+  ],
+  "passed": 75,
+  "total": 75
+}

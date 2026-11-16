@@ -47,5 +47,13 @@
       "surgeUrl": "https://belgic-confession-20261021-v1-gtstudy.surge.sh/",
       "vercelUrl": "https://belgic-confession-20261021-v1-gtstudy.vercel.app/"
     }
-  ]
+  ],
+  "githubPagesWorkflow": 43779287730,
+  "publishedSiteCommit": "42a1616f2a432914f3f8e84dfa422a548b077cc0",
+  "vercelDeployment": "https://belgic-confession-20261021-v1-gtstudy-5akbf6raz.vercel.app",
+  "verifiedPublicResources": {
+    "passed": 75,
+    "total": 75,
+    "date": "2026-11-16"
+  }
 }
