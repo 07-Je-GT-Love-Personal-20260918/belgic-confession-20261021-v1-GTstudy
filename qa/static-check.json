@@ -1,60 +1,66 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-11-14",
   "original_sections": 232,
   "commentary_articles": 37,
   "pages": [
     {
       "file": "atlas.html",
-      "ids": 54,
-      "links": 24,
+      "ids": 66,
+      "links": 31,
+      "local_links_ok": true
+    },
+    {
+      "file": "creeds.html",
+      "ids": 33,
+      "links": 18,
       "local_links_ok": true
     },
     {
       "file": "index.html",
-      "ids": 156,
-      "links": 131,
+      "ids": 162,
+      "links": 137,
       "local_links_ok": true
     },
     {
       "file": "reader-athanasian.html",
-      "ids": 35,
-      "links": 9,
+      "ids": 39,
+      "links": 13,
       "local_links_ok": true
     },
     {
       "file": "reader-belgic.html",
-      "ids": 71,
-      "links": 82,
+      "ids": 75,
+      "links": 86,
       "local_links_ok": true
     },
     {
       "file": "reader-dort.html",
-      "ids": 97,
-      "links": 134,
+      "ids": 101,
+      "links": 138,
       "local_links_ok": true
     },
     {
       "file": "reader-heidelberg.html",
-      "ids": 163,
-      "links": 266,
+      "ids": 167,
+      "links": 270,
       "local_links_ok": true
     },
     {
       "file": "reader-nicene.html",
-      "ids": 35,
-      "links": 9,
+      "ids": 39,
+      "links": 13,
       "local_links_ok": true
     },
     {
       "file": "reader.html",
-      "ids": 35,
-      "links": 9,
+      "ids": 39,
+      "links": 13,
       "local_links_ok": true
     },
     {
       "file": "source-report.html",
       "ids": 0,
-      "links": 235,
+      "links": 236,
       "local_links_ok": true
     }
   ],

@@ -1,3 +1,25 @@
+# 比利时信条 · belgic-confession-20261114-v3-GTstudy
+
+**主题—时间—版本：比利时信条—20261114—v3.0.0—GTstudy**
+
+| 平台 | v3 入口 |
+| --- | --- |
+| GitHub Pages | https://07-je-gt-love-personal-20260918.github.io/belgic-confession-20261021-v1-GTstudy/ |
+| Surge | https://belgic-confession-20261114-v3-gtstudy.surge.sh/ |
+| Vercel | https://belgic-confession-20261114-v3-gtstudy.vercel.app/ |
+
+版本日期为 2026-11-14，交付验收于 2026-11-16。沿用已有仓库。GitHub Pages 路径保持稳定；Surge、Vercel 新入口含发布日期和版本。浏览器笔记按域名保存，换域名请先从旧站导出、到新站导入。
+
+- 地图馆增加两张离线经纬度示意、五幕时间线与30秒字幕短片；五种在线底图按需加载，失败时尝试其他来源。卫星底图不代表实时拍摄；近期观测另可打开 NASA Worldview。
+- 三经独立对读页比较五个维度，连到圣经神学、圣约神学和三份原文背诵页。原文与教学释义分开。
+- 标记支持修改八种样式、写自己的理解、检索、筛选与分批回看。原笔记键兼容；视频不预加载，滚动进度不再逐帧重算布局宽度。
+- 恢复：`git switch -c restore-v2 v2.0.0-20261024`；v3 发布标签 `v3.0.0-20261114`。`python build.py` 构建；`python scripts/check_static.py` 检查原文和链接。离线包见 Releases。
+- `qa/v3-browser.json` 记录多尺寸和断网交互检查；`qa/v3-creed-source-check.json` 记录三经正文复核；`qa/v3-source-check.json` 记录全部155页、232个原文单元在线复核一致（忽略版面空白）。历史资料参照 URCNA 与 CCI 指定文本，未宣称已遍读 CCI 全站。
+
+---
+
+## 历版文档（v2 与 v1）
+
 # 比利时信条37条全景深读 · GTstudy
 
 **主题—时间—版本：比利时信条—20261024—v2.0.0—GTstudy**

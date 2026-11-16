@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "date": "2026-11-14",
+    "checked_at_utc": "2026-11-14T08:22:00.317549+00:00",
+    "method": "Live HTTP GET once per unique source in this execution; no prior disk cache; concurrency 5; original extraction selectors; paragraph blocks p/h2/h3/h4/h5/li, nested p/li excluded; only Unicode whitespace ignored",
+    "input": "User-supplied PDF; current CCI translation checked against source."
+  },
+  "summary": {
+    "total_sections": 3,
+    "matched": 3,
+    "differences": 0,
+    "unique_sources": 3,
+    "sources_ok": 3
+  },
+  "sources": [
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "seconds": 2.31,
+      "raw_sha256": "dced115dfc80a047eebc4ecbb75f0e599f244a553abfb8f886996ed2eec19cd9",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "seconds": 1.7,
+      "raw_sha256": "8eeb9b6d5e2f8a68e482b24dc186e134f024716e473091c1d3d234c059fa4a9c",
+      "blocks": 1
+    },
+    {
+      "url": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "status": 200,
+      "final_url": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "seconds": 3.09,
+      "raw_sha256": "d4411c360d6c664f9ae0627eb93c3278609040bdc27bb638e7d9bdfc7a6b04f4",
+      "blocks": 1
+    }
+  ],
+  "sections": [
+    {
+      "document": "apostles",
+      "section": 1,
+      "title": "使徒信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/apostles-creed",
+      "match": true,
+      "archived_normalized_sha256": "0e89c462973a2fdf3b95a59cdd7df218444768e18b52995521b62eecab3df94b"
+    },
+    {
+      "document": "nicene",
+      "section": 1,
+      "title": "尼西亚信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/nicene-creed",
+      "match": true,
+      "archived_normalized_sha256": "8d8511eaec46279095b75f096ade8096210caf8f6260ddd8656a6d8273f78c4b"
+    },
+    {
+      "document": "athanasian",
+      "section": 1,
+      "title": "亚他那修信经全文",
+      "source": "https://ccifellowship.org/books/book-of-praise/creeds/athanasian-creed",
+      "match": true,
+      "archived_normalized_sha256": "8eb0ff04badd9627bbd01b1afb6d43268fc42bbc6bce2e335ef62127fa3cc6a2"
+    }
+  ]
+}

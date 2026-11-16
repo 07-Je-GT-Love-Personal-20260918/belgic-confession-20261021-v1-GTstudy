@@ -7,8 +7,9 @@ class Parser(HTMLParser):
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if 'id'in a:self.ids.append(a['id'])
-  if tag=='a' and 'href'in a:self.links.append(a['href'])
-  if tag=='script' and 'src'in a:self.scripts.append(a['src'])
+  if tag=='video' and 'poster' in a:self.scripts.append(a['poster'])
+  if tag in ('a','link') and 'href'in a:self.links.append(a['href'])
+  if tag in ('script','source','img') and 'src'in a:self.scripts.append(a['src'])
 checks=[]
 for p in (base/'dist').glob('*.html'):
  text=p.read_text(encoding='utf8');parser=Parser();parser.feed(text)
@@ -31,6 +32,6 @@ for doc in originals['documents']:
   count+=1
 assert count==232
 assert (base/'dist/index.html').read_text(encoding='utf8').count('class="article-card"')==37
-result={'date':'2026-10-24','original_sections':count,'commentary_articles':37,'pages':checks,'result':'PASS'}
+result={'date':'2026-11-14','original_sections':count,'commentary_articles':37,'pages':checks,'result':'PASS'}
 (base/'qa/static-check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps(result))

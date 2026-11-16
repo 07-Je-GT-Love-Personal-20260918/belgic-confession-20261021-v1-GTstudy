@@ -56,10 +56,12 @@
 
   // All libraries are served locally. Only tiles are external, after an explicit load.
   const cities = $('#mapCities') ? JSON.parse($('#mapCities').textContent) : [];
-  let map, tileLayer, markerGroup, watchdog, generation = 0, succeeded = 0, errors = 0, libraryPromise;
+  let map, tileLayer, markerGroup, watchdog, generation = 0, succeeded = 0, errors = 0, libraryPromise, mapIntent = 0;
   const providers = {
     esri: { name: 'Esri 街道地图', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', maxZoom: 19, attribution: 'Tiles © Esri — Esri, HERE, Garmin, USGS, NGA, EPA, NPS and contributors' },
     imagery: { name: 'Esri 卫星影像', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', maxZoom: 19, attribution: 'Tiles © Esri — Esri, Maxar, Earthstar Geographics and the GIS User Community' },
+    hot: { name: 'OSM France 人道专题', url: 'https://a.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors · HOT style · <a href="https://www.openstreetmap.fr/fonds-de-carte/">OSM France</a>' },
+    nasa: { name: 'NASA Blue Marble 全球影像', url: 'https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/BlueMarble_ShadedRelief_Bathymetry/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpg', maxZoom: 8, attribution: 'NASA EOSDIS GIBS · Blue Marble' },
     osm: { name: 'OpenStreetMap', url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png', maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> · ODbL' }
   };
   function mapStatus(text) { if ($('#mapStatus')) $('#mapStatus').textContent = text; }
@@ -84,29 +86,46 @@
     } else mapStatus(`${city.name} · ${city.lat.toFixed(3)}°N / ${city.lon.toFixed(3)}°E；点击“载入现代地图”查看。`);
     if (move) $('#modern-map')?.scrollIntoView({ behavior: reduce() ? 'instant' : 'smooth', block: 'start' });
   }
-  function setProvider(id, automatic = false) {
+  function setProvider(id, attempted = new Set()) {
     if (!map || !providers[id]) return;
     clearTimeout(watchdog); const token = ++generation;
     if (tileLayer) map.removeLayer(tileLayer);
-    succeeded = 0; errors = 0; $('#mapProvider').value = id;
-    mapStatus((automatic ? '主图层暂不可达，已切换备用。' : '') + `正在载入${providers[id].name}…`);
+    attempted.add(id); succeeded = 0; errors = 0; $('#mapProvider').value = id;
+    $('#retryMap').hidden = true;
+    mapStatus((attempted.size > 1 ? '正在尝试备用：' : '正在载入：') + providers[id].name);
     const config = providers[id];
-    tileLayer = L.tileLayer(config.url, { attribution: config.attribution, maxZoom: config.maxZoom, updateWhenIdle: true, keepBuffer: 1, crossOrigin: false });
+    tileLayer = L.tileLayer(config.url, { attribution: config.attribution, maxNativeZoom: config.maxZoom, maxZoom: 19, updateWhenIdle: true, keepBuffer: 1 });
     function failed() {
-      if (token !== generation || succeeded > 0) return;
+      if (token !== generation) return;
       clearTimeout(watchdog);
-      if (id !== 'osm') setProvider('osm', true);
-      else mapStatus('在线图层暂不可达。历史示意、城市坐标与正文仍可用；可用独立地图链接，或切换图层重试。');
+      const next = ['esri', 'osm', 'hot', 'nasa'].find(key => !attempted.has(key) && !(id === 'imagery' && key === 'esri'));
+      if (next) { setProvider(next, attempted); return; }
+      ++generation; map.removeLayer(tileLayer); tileLayer = null;
+      $('#retryMap').hidden = false;
+      mapStatus('在线底图暂不可达。离线示意、城市坐标与正文仍可读；也可打开独立地图或手动重试。');
     }
-    tileLayer.on('tileload', () => { if (token !== generation) return; succeeded++; clearTimeout(watchdog); mapStatus(`${config.name}已载入 · 可缩放、拖动与选择城市。现代影像不代表历史疆界。`); });
-    tileLayer.on('tileerror', () => { if (token !== generation) return; errors++; if (errors >= 3 && !succeeded) failed(); });
-    watchdog = setTimeout(failed, 12000);
+    tileLayer.on('loading', () => {
+      if (token !== generation) return;
+      succeeded = 0; errors = 0; clearTimeout(watchdog); watchdog = setTimeout(() => {
+        if (!succeeded) failed(); else mapStatus(config.name + '部分区域已载入；可切换底图。');
+      }, 6500);
+    });
+    tileLayer.on('tileload', () => { if (token === generation) succeeded++; });
+    tileLayer.on('tileerror', () => { if (token === generation) errors++; });
+    tileLayer.on('load', () => {
+      if (token !== generation) return;
+      clearTimeout(watchdog);
+      if (!succeeded && errors) { queueMicrotask(failed); return; }
+      mapStatus(config.name + (errors ? '部分区域已载入；可切换底图。' : '已载入 · 可缩放、拖动与定位。'));
+    });
     tileLayer.addTo(map);
   }
   async function startMap() {
+    const intent = ++mapIntent;
     const button = $('#loadMap'); if (button) { button.disabled = true; button.textContent = '正在载入…'; }
     try {
       await loadLibrary();
+      if (intent !== mapIntent) return;
       if (!map) {
         map = L.map('liveMap', { scrollWheelZoom: false, preferCanvas: true, fadeAnimation: false, zoomAnimation: !reduce(), attributionControl: true });
         markerGroup = L.layerGroup().addTo(map);
@@ -126,11 +145,12 @@
     finally { if (button) { button.disabled = false; button.textContent = '载入现代地图'; } }
   }
   $('#loadMap')?.addEventListener('click', startMap);
+  $('#retryMap')?.addEventListener('click', () => setProvider($('#mapProvider').value));
   $('#mapProvider')?.addEventListener('change', () => { if (map) setProvider($('#mapProvider').value); });
   $('#mapCity')?.addEventListener('change', () => selectCity($('#mapCity').value, false));
   $('#mapExtent')?.addEventListener('click', () => { if (map) map.fitBounds(cities.map(c => [c.lat, c.lon]), { padding: [30, 30], animate: !reduce() }); else toast('先载入现代地图，即可查看全部城市。'); });
   $('#stopMap')?.addEventListener('click', () => {
-    ++generation; clearTimeout(watchdog); if (map) { map.remove(); map = null; tileLayer = null; markerGroup = null; }
+    ++mapIntent; ++generation; $('#retryMap').hidden = true; clearTimeout(watchdog); if (map) { map.remove(); map = null; tileLayer = null; markerGroup = null; }
     $('#mapStart').hidden = false; mapStatus('在线地图已暂停，不再请求图层；示意图与正文不受影响。');
   });
   $$('.locate-scene,.concept-city').forEach(button => {
@@ -177,7 +197,7 @@
     clearRoot(root); const text = root.textContent;
     marks.filter(mark => mark.block === root.dataset.noteBlock).forEach(mark => { const range = resolve(mark, text); if (range) wrap(root, range[0], range[1], mark); });
   }
-  function applyAll() { roots.forEach(root => { if (marks.some(mark => mark.block === root.dataset.noteBlock)) renderRoot(root); }); renderList(); }
+  function applyAll() { for (const block of new Set(marks.map(mark => mark.block))) { const root = roots.get(block); if (root) renderRoot(root); } renderList(); }
   function captureSelection() {
     const selection = getSelection(); if (!selection || selection.isCollapsed || !selection.rangeCount) { if (!$('#markToolbar')?.contains(document.activeElement)) $('#markToolbar').hidden = true; return; }
     const range = selection.getRangeAt(0); const start = range.startContainer.nodeType === 1 ? range.startContainer : range.startContainer.parentElement;
@@ -209,7 +229,7 @@
   $('#marksBackdrop')?.addEventListener('click', () => showMarks(false));
   $('#marksDrawer')?.addEventListener('keydown', event => {
     if (event.key === 'Escape') { showMarks(false); return; }
-    if (event.key === 'Tab') { const nodes = $$('#marksDrawer button:not([disabled]),#marksDrawer a,#marksDrawer input'); const first = nodes[0], last = nodes[nodes.length - 1]; if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); } else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); } }
+    if (event.key === 'Tab') { const nodes = $$('#marksDrawer button:not([disabled]),#marksDrawer a,#marksDrawer input,#marksDrawer select,#marksDrawer textarea,#marksDrawer summary'); const active = nodes.filter(n => n.getClientRects().length); const first = active[0], last = active[active.length - 1]; if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); } else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); } }
   });
   function jumpMark(mark) {
     const root = roots.get(mark.block);
@@ -221,12 +241,25 @@
     for (let el = root.parentElement; el; el = el.parentElement) if (el.tagName === 'DETAILS') el.open = true;
     root.scrollIntoView({ behavior: reduce() ? 'instant' : 'smooth', block: 'center' }); root.classList.add('mark-located'); setTimeout(() => root.classList.remove('mark-located'), 2000);
   }
+  let markLimit = 24;
+  const filter = $('#markFilter'), search = $('#markSearch');
+  if (filter) for (const button of $$('[data-mark-style]')) filter.add(new Option(button.getAttribute('aria-label'), button.dataset.markStyle));
+  function resetList() { markLimit = 24; renderList(); }
+  filter?.addEventListener('change', resetList);
+  search?.addEventListener('input', resetList);
+  $('#moreMarks')?.addEventListener('click', () => { markLimit += 24; renderList(); });
+  $('#drawerUndo')?.addEventListener('click', () => $('#undoMark').click());
   function renderList() {
     if (!$('#marksList')) return;
     $('#markCount').textContent = marks.length;
+    if ($('#marksDrawer').hidden) return;
     const list = $('#marksList'); list.replaceChildren();
+    const q = (search?.value || '').trim().toLocaleLowerCase();
+    const visible = marks.filter(m => (!filter?.value || m.style === filter.value) && (!q || (m.quote + ' ' + (m.memo || '')).toLocaleLowerCase().includes(q)));
+    $('#moreMarks').hidden = visible.length <= markLimit;
     if (!marks.length) { const p = document.createElement('p'); p.className = 'marks-empty'; p.textContent = '还没有重点。回到正文，选中一句话，再选择颜色、底纹或线条。'; list.append(p); return; }
-    [...marks].reverse().forEach(mark => {
+    if (!visible.length) list.textContent = '没有符合条件的重点。';
+    visible.slice().reverse().slice(0, markLimit).forEach(mark => {
       const item = document.createElement('article'); item.className = 'saved-mark';
       const quote = document.createElement('p'); quote.className = 'style-' + mark.style; quote.textContent = mark.quote;
       const meta = document.createElement('small'); const root = roots.get(mark.block); meta.textContent = mark.block.startsWith('original:') ? '认信原文 · 个人标记' : '学习解读 · 个人标记';
@@ -234,7 +267,15 @@
       const actions = document.createElement('div'); actions.className = 'toolbar';
       const go = document.createElement('button'); go.type = 'button'; go.textContent = '回到原处'; go.addEventListener('click', () => jumpMark(mark));
       const remove = document.createElement('button'); remove.type = 'button'; remove.textContent = '删除此条'; remove.addEventListener('click', () => { remember(); marks = marks.filter(m => m.id !== mark.id); if (root) renderRoot(root); persist(); });
-      actions.append(go, remove); item.append(meta, quote, actions); list.append(item);
+      const detail = document.createElement('details');
+      const summary = document.createElement('summary'); summary.textContent = '编辑样式与我的理解';
+      const select = filter.cloneNode(true); select.removeAttribute('id'); select.remove(0); select.value = mark.style; select.setAttribute('aria-label', '修改标记样式');
+      const memo = document.createElement('textarea'); memo.maxLength = 500; memo.value = typeof mark.memo === 'string' ? mark.memo.slice(0,500) : ''; memo.placeholder = '用自己的话写一句'; memo.setAttribute('aria-label','我的理解');
+      const save = document.createElement('button'); save.type = 'button'; save.textContent = '保存理解与样式';
+      save.addEventListener('click', () => { remember(); mark.memo = memo.value.trim(); mark.style = select.value; if (root) renderRoot(root); persist(); $('#closeMarks').focus(); });
+      detail.append(summary, select, memo, save);
+      if (mark.memo) { const note = document.createElement('p'); note.className = 'mark-memo'; note.textContent = mark.memo; item.append(meta,quote,note); } else item.append(meta,quote);
+      actions.append(go, remove); item.append(actions, detail); list.append(item);
     });
   }
   function download(data, name) { const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })); const a = document.createElement('a'); a.href = url; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); }

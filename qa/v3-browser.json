@@ -1,0 +1,192 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 320,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 320,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 320,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 320,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 320,
+      "page": "reader-athanasian.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 375,
+      "page": "reader-athanasian.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 430,
+      "page": "reader-athanasian.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 768,
+      "page": "reader-athanasian.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 1024,
+      "page": "reader-athanasian.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "atlas.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "creeds.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "reader.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "reader-nicene.html",
+      "fits": true
+    },
+    {
+      "width": 1440,
+      "page": "reader-athanasian.html",
+      "fits": true
+    }
+  ],
+  "interactions": [
+    "repeated disclosures",
+    "scene switching",
+    "blocked online tiles and local fallback",
+    "30s video playback",
+    "highlight edit, memo search, reload and return"
+  ],
+  "page_errors": []
+}

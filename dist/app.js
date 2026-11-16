@@ -8,7 +8,13 @@ let saveTimer;const queueSave=()=>{clearTimeout(saveTimer);saveTimer=setTimeout(
 const readSavedMarks=()=>{try{const m=JSON.parse(localStorage.getItem('gtstudy-belgic-marks-v2')||'[]');return Array.isArray(m)?m:[]}catch{return []}};
 function applyPrefs(){document.documentElement.dataset.theme=state.theme;document.documentElement.style.setProperty('--reading',(state.font===1?19:state.font===2?21:matchMedia('(max-width:600px)').matches?16:17)+'px')}
 applyPrefs();$('#theme')?.addEventListener('click',()=>{state.theme=state.theme==='dark'?'light':'dark';applyPrefs();save()});$('#font')?.addEventListener('click',()=>{state.font=(state.font+1)%3;applyPrefs();save()});
-let ticking=false;window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(()=>{const h=document.documentElement;const percent=h.scrollHeight===innerHeight?0:100*scrollY/(h.scrollHeight-innerHeight);if($('#scrollProgress'))$('#scrollProgress').style.width=percent+'%';ticking=false});ticking=true}},{passive:true});
+if (!CSS.supports('animation-timeline: scroll()')) {
+  const bar=$('#scrollProgress'); let raf=0, extent=1;
+  const draw=()=>{raf=0;if(bar)bar.style.transform='scaleX('+Math.max(0,Math.min(1,scrollY/extent))+')'};
+  const schedule=()=>{if(!raf)raf=requestAnimationFrame(draw)};
+  const measure=()=>{extent=Math.max(1,document.documentElement.scrollHeight-innerHeight);schedule()};
+  new ResizeObserver(measure).observe(document.body);window.addEventListener('resize',measure,{passive:true});window.addEventListener('scroll',schedule,{passive:true});measure();
+}
 const small=()=>matchMedia('(max-width:900px)').matches;
 function tocToggle(force){if(small()){const show=force??!document.body.classList.contains('toc-open');document.body.classList.toggle('toc-open',show);$('#tocToggle')?.setAttribute('aria-expanded',String(show));if(show)$('#tocClose')?.focus()}else{const show=force??document.body.classList.contains('toc-hidden');document.body.classList.toggle('toc-hidden',!show);$('#tocToggle')?.setAttribute('aria-expanded',String(show))}}
 if($('#tocToggle')){tocToggle(!small());$('#tocToggle').addEventListener('click',()=>tocToggle());$('#tocClose').addEventListener('click',()=>{tocToggle(false);$('#tocToggle').focus()});$('#tocBackdrop').addEventListener('click',()=>tocToggle(false));$$('#toc a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{if(small())tocToggle(false)}));document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&small())tocToggle(false)})}
